@@ -5,6 +5,7 @@ description: Is a static site, like the ones you can build using Jekyll right fo
 date: 2016-09-16 18:45:41 -0400
 permalink: /jekyll-not-jekyll-static-site/
 tags: [help, jekyll]
+image: to-jekyll-or-not-static-site.jpg
 ---
 ![Jekyll]({{ site.baseurl | prepend: site.url }}/assets/images/to-jekyll-or-not-static-site.jpg)
 

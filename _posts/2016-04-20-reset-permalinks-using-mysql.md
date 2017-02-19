@@ -5,6 +5,7 @@ description: What do you do when you can’t access the admin side of Wordpress 
 date: 2016-04-20 18:45:41 -0400
 permalink: /reset-permalinks-using-mysql/
 tags: [help, mysql, wordpress]
+image: reset-permalinks-using-mysql.jpg
 ---
 
 ![permalikns and how to reset them]({{ site.baseurl | prepend: site.url }}/assets/images/reset-permalinks-using-mysql.jpg)

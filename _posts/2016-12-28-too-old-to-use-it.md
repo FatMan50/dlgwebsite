@@ -4,7 +4,7 @@ title: Too Old to Use It
 description: "Can a computer be too old to use it while at the same time be too good to throw it away?"
 modified: 2016-12-28
 tags: [story, mac, apple]
-
+image: too-old-to-use-it.jpg
 ---
 
 ![Too old to use it]({{  site.baseurl | prepend: site.url }}/images/too-old-to-use-it.jpg)

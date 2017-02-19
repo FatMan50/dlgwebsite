@@ -5,6 +5,7 @@ description: Do you want to migrate from WordPress to Jekyll, well there are a f
 date: 2016-09-23 01:57:32 -0500
 tags: [help, jekyll]
 permalinks: /migrate-from-wordpress-to-jekyl/
+image: migrate-from-wordpress-to-jekyll.jpg
 ---
 
 ![moving from WordPress to Jekyll]({{ site.baseurl | prepend: site.url }}/assets/images/migrate-from-wordpress-to-jekyll.jpg)

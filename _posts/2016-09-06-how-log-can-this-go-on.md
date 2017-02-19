@@ -5,6 +5,7 @@ description: My washer and dryer appliances are the longest and most fulfilling 
 date: 2016-09-06 18:45:41 -0400
 permalink: /long-can-go/
 tags: [story]
+image: how-long-can-this-go-on.jpg
 ---
 
 ![how long]({{ site.baseurl | prepend: site.url }}/assets/images/how-long-can-this-go-on.jpg)

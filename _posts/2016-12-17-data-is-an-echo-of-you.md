@@ -5,6 +5,7 @@ description: How will I be remembered? How much of what you do, and how I do it,
 date: 2016-12-16 02:57:32 -0500
 mood: happy
 permalink: /data-is-an-echo-of-you/
+image: data-is-an-echo-of-you.jpg
 ---
 
 ![Data is an Echo of You]({{  site.baseurl | prepend: site.url }}/assets/images/data-is-an-echo-of-you.jpg)

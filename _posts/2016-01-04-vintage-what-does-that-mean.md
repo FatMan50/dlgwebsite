@@ -5,6 +5,7 @@ description: We now live in a time when something that is 5 years old is called 
 date: 2016-01-04 18:45:41 -0400
 permalink: /vintage-what-does-that-mean/
 tags: [apple]
+image: obsolete-mac-mini-maybe.jpg
 ---
 
 ![Apple makes thigs vintage]({{ site.baseurl | prepend: site.url }}/assets/images/obsolete-mac-mini-maybe.jpg)
