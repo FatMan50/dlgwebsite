@@ -39,7 +39,7 @@ I guess the [Butane insert](https://www.amazon.com/Thunderbird-Vector-Lighter-In
 
 Things that are easy and simple sometimes lack something. It takes effort to keep the lighter filled and the wick and flint in good working order. Gratification can come from simple tasks that connect you to the world around you.
 
-This idea is carried over to my preference of [Linux](https://linuxmint.com) over Mac or PC. I like working on a computer. Some people just want it to be an appliance. I prefer to get my hands dirty from time to time.
+This idea is carried over to my preference of [Linux](https://linuxmint.com) over **Mac** or **PC**. I like working on a computer. Some people just want it to be an appliance. I prefer to get my hands dirty from time to time.
 
 <a href="{{  site.baseurl | prepend: site.url }}/images/zippo-lighters-outback.jpg" data-toggle="lightbox" data-title="Image title" data-footer="Image footer">
     ![Two Zippo Lighters in my back yard]({{  site.baseurl | prepend: site.url }}/images/zippo-lighters-outback.jpg){: width="960px" }
