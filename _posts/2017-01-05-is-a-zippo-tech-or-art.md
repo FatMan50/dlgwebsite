@@ -11,7 +11,7 @@ tags: [story, linux]
 
 Can a lighter be considered art or even technology? Why do I like the [Zippo lighter](http://www.zippo.com)? Does the drawbacks of a Zippo make it a better lighter?<!--more-->
 
-The Zippo Manufacturing Company was founded in 1932 by George G. Blaisdell. The first Zippo lighters hit the stores in 1933. It was very popular with the military. The lighter’s design and materials has not changed, except during war time when materials were scarce.
+The **Zippo Manufacturing Company** was founded in 1932 by George G. Blaisdell. The first Zippo lighters hit the stores in 1933. It was very popular with the military. The lighter’s design and materials has not changed, except during war time when materials were scarce.
 
 The Zippo’s sturdy construction and ability to work in harsh weather made it very popular with campers and hikers. This was also a trait the military liked.
 
