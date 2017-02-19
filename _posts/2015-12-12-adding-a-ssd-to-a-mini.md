@@ -5,6 +5,7 @@ description: Upgrading my 2011 Mac Mini with a new SSD was simple and made a HUG
 date: 2015-12-12 18:45:41 -0400
 permalink: /adding-a-ssd-to-a-mini/
 tags: [help, apple]
+image: images/Mac-Mini-SSD.jpg
 ---
 
 ![New SSD in a Mac Mini]({{ site.baseurl | prepend: site.url }}/assets/images/Mac-Mini-SSD.jpg)
