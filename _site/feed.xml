@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://danaleegibson.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://danaleegibson.com/" rel="alternate" type="text/html" /><updated>2017-02-19T00:19:40-05:00</updated><id>http://danaleegibson.com/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>3 Reasons to Switch from WordPress to Jekyll</title><link href="http://danaleegibson.com/3-reasons-to-switch-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="3 Reasons to Switch from WordPress to Jekyll" /><published>2017-02-18T00:00:00-05:00</published><updated>2017-02-18T00:00:00-05:00</updated><id>http://danaleegibson.com/3-reasons-to-switch-from-wordpress-to-jekyll</id><content type="html" xml:base="http://danaleegibson.com/3-reasons-to-switch-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/3-reasons-to-switch-from-wordpress-to-jekyll.jpg&quot; alt=&quot;3 Reasons to Switch from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes! this is a &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyl is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; driven static website. I switched to &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt;, but why? There are &lt;strong&gt;3&lt;/strong&gt; main reasons I did this. Well &lt;strong&gt;4&lt;/strong&gt; reasons really. But the forth reason might not apply to the average person or blogger.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-is-fast&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Fast&lt;/h2&gt;
+&lt;p&gt;What I mean by that is &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is a static website builder. A static website is much faster than a dynamic one. &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is dynamic, meaning it rides on a database and uses a lot of computing power to generate dynamic pages. In the most basic sense a dynamic page doesn’t exist until someone visits it. At that time &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; and the database kick to life and build the page and send it to the visitor.&lt;/p&gt;
+
+&lt;p&gt;Dynamic sites have their place, but the reality is most bloggers and websites really don’t need it. In the real world the average person or company isn’t as popular or feature rich as FaceBook, no matter how much we’d like that to be true.&lt;/p&gt;
+
+&lt;p&gt;So lets just get the stuff we need and drop the rest. Doing so will speed up the loading of your website. In most cases simpler is faster.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-is-simpler&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Simpler&lt;/h2&gt;
+&lt;p&gt;Lets be honest, neither &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; nor &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; are really that simple. As with all websites most of the work goes into the initial development. In that area &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; are fairly equal, I would even say &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is a bit simpler.&lt;/p&gt;
+
+&lt;p&gt;Beyond all the technical &lt;em&gt;crap&lt;/em&gt; the bottom line is once the site is built the &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; site is far simpler. There are no plugins to update. There isn’t a &lt;strong&gt;CMS&lt;/strong&gt; to keep up to date. You do not have to deal with an updated plugin that conflicts with the &lt;strong&gt;CMS&lt;/strong&gt;, or another plugin. Or my favorite head ache, the unsupported plugin. Unsupported plugins can send you scrambling for a replacement, they can also be a &lt;strong&gt;huge security risk&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-is-safer&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Safer&lt;/h2&gt;
+&lt;p&gt;I don’t want to get overly technical here, but there are &lt;strong&gt;3&lt;/strong&gt; main reasons why &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is not very secure. The first is because it uses server-side scripts, in the &lt;strong&gt;PHP&lt;/strong&gt; language. These use whats called URL parameters to control the database (&lt;em&gt;MySQL&lt;/em&gt;). Hackers can use whats called a &lt;strong&gt;SQL injection attacks&lt;/strong&gt; to get sensitive database information. Once they have that they can hijack the site and change or replace your content.&lt;/p&gt;
+
+&lt;p&gt;The second reason &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is not secure has to do with themes and plugins. You can get free themes or paid themes, same with plugins. Sometimes these themes or plugins have errors that leave a security hole in your website. Because they are easy to get and install most people will have no idea there is a security problem, the developer might not even know it. Because of the massive number of people using &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; it has become fertile ground for &lt;em&gt;unscrupulous&lt;/em&gt; developers to add malware into their themes and plugins.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-main-problem-with-wordpresshttpswordpresscom-wordpress-is-a-website-cms-is-you&quot;&gt;The main problem with &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is You!&lt;/h2&gt;
+&lt;p&gt;The last reason I think &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is not secure is &lt;strong&gt;you&lt;/strong&gt;! And to be fare, me as well. We are human and busy humans at that. It is natural for us to let things get a bit out of date, fall behind, not keep on top of things. This can be a huge problem when dealing with &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. Failing to keep &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; up-to-date can leave you vulnerable to attacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://danaleegibson.com/images/life-gets-in-the-way-of-wordpress.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://danaleegibson.com/images/life-gets-in-the-way-of-wordpress.jpg&quot; alt=&quot;Life is too busy for WordPress&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This goes back to the simplicity problem. Many people don’t like updating &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; or plugins simply because it can cause problems. More times than I’d like to remember my day, or entire weekend, has been ruined by simply updating &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. I’ve done more than a few plugin updates that resulted in the dreaded &lt;strong&gt;White Screen of Death&lt;/strong&gt;. For this reason I only do updates when I know I have a block of time that can be dedicated to fixing any possible problems.&lt;/p&gt;
+
+&lt;p&gt;People try to avoid problems by not updating. This might seem like a reasonable tactic but it is a ticking time bomb. Updates fix security vulnerabilities. It is just a question of time before an out of date &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; website is hacked, not if, but &lt;strong&gt;when&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Therefore a static website, which is just a collection of simple text files, is safer. There is nothing to hijack. There is nothing to take control of. There is nothing to keep updated. A &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; site can be ignored as much as you want and it won’t hurt you. Its the best type of a site for a busy company or person.&lt;/p&gt;
+
+&lt;p&gt;Any updates or changes doen to a Jekyll site are always done on a development machine (&lt;em&gt;your home PC&lt;/em&gt;) first and not the web server. This allows you to work out any problems before they go live. Sure you could create a local version of your &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; site, but for the average person that is beyond their technical abilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-keeps-me-sharp&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; Keeps Me Sharp&lt;/h2&gt;
+&lt;p&gt;This reason for using &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; over &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is very personal and may not apply to everyone. I like doing things manually, I find pleasure in knowing the inner workings of things. I feel I am a better “&lt;em&gt;technologist&lt;/em&gt;” if I keep my hand in things. &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is fine if you prefer a point and click experience.&lt;/p&gt;
+
+&lt;p&gt;I bounce around a lot between graphic design, magazine and book publishing, database management, and server management. Because of this I enjoy the break from my daily grind by getting down and dirty with the command line.&lt;/p&gt;
+
+&lt;p&gt;The reason I transitioned away from print, beyond it dying, and into the web was because I enjoyed the feeling of using code to create things that look good and actually do things. &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; removed a large part of that for me. I found myself spending a lot of time just maintaining the CMS and doing updates.&lt;/p&gt;
+
+&lt;p&gt;There it is, my &lt;strong&gt;4&lt;/strong&gt; reasons for using &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; over &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. Oh, wait there is one more, &lt;strong&gt;money&lt;/strong&gt;, and &lt;strong&gt;control&lt;/strong&gt;, okay that is really two more. Clients can run and change a &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; site without me. Thats not good for my bottom line. A &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; site I build for a client will run better, faster, more securely, and the client (&lt;em&gt;most times&lt;/em&gt;) has to come to me to make changes and/or additions. It is a Win-Win for everyone.&lt;/p&gt;</content><category term="jekyll" /><category term="wordpress" /><summary>Yes! this is a Jekyll driven static website. I switched to Jekyll, but why? There are 3 main reasons I did this. Well 4 reasons really. But the forth reason might not apply to the average person or blogger.</summary></entry><entry><title>Is a Zippo Tech or Art?</title><link href="http://danaleegibson.com/is-a-zippo-tech-or-art/" rel="alternate" type="text/html" title="Is a Zippo Tech or Art?" /><published>2017-01-05T00:00:00-05:00</published><updated>2017-01-05T00:00:00-05:00</updated><id>http://danaleegibson.com/is-a-zippo-tech-or-art</id><content type="html" xml:base="http://danaleegibson.com/is-a-zippo-tech-or-art/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/is-zippo-tech-and-art.jpg&quot; alt=&quot;Zippo Lighter is Art &amp;amp; Technology&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Can a lighter be considered art or even technology? Why do I like the &lt;a href=&quot;http://www.zippo.com&quot;&gt;Zippo lighter&lt;/a&gt;? Does the drawbacks of a Zippo make it a better lighter?&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The Zippo Manufacturing Company was founded in 1932 by George G. Blaisdell. The first Zippo lighters hit the stores in 1933. It was very popular with the military. The lighter’s design and materials has not changed, except during war time when materials were scarce.&lt;/p&gt;
+
+&lt;p&gt;The Zippo’s sturdy construction and ability to work in harsh weather made it very popular with campers and hikers. This was also a trait the military liked.&lt;/p&gt;
+
+&lt;p&gt;I think the &lt;a href=&quot;http://www.zippo.com&quot;&gt;Zippo lighter&lt;/a&gt; is more than functional, it has an artistic, timeless quality. It has an iconic shape, but more then that, it has an iconic sound. The sound of a Zippo opening, being lit, and then closing is immediately recognizable all over the world.&lt;/p&gt;
+
+&lt;p&gt;When you combine the shape, the sturdy metal feel in your hand along with the unique sounds it makes, mixed with the smell of the lighter fluid, you have a complete visceral experience.&lt;/p&gt;
+
+&lt;p&gt;It goes beyond just art and experience. It is almost timeless. Every part of the Zippo lighter can be replaced. It can be passed down from generation to generation and still remain functional.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-like-to-think-of-it-as-the-lighter-of-theseushttpsenwikipediaorgwikishipoftheseus&quot;&gt;I like to think of it as &lt;a href=&quot;https://en.wikipedia.org/wiki/Ship_of_Theseus&quot;&gt;The Lighter of Theseus&lt;/a&gt;.&lt;/h2&gt;
+
+&lt;p&gt;Because of all of these attributes the Zippo Lighter is more than just a lighter to me. Its a tool, an object of art, and a touch-stone to the past.&lt;/p&gt;
+
+&lt;p&gt;I have two myself, even though I don’t smoke. Along with a good knife having a working lighter is a must have.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://danaleegibson.com/images/my-zippo-lighters.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://danaleegibson.com/images/my-zippo-lighters.jpg&quot; alt=&quot;My Two Zippo Lighters&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is true that a &lt;a href=&quot;http://www.zippo.com&quot;&gt;Zippo&lt;/a&gt; will run out of fuel after 2 weeks, sometimes maybe 3. This is because the lighter fuel will evaporate.&lt;/p&gt;
+
+&lt;p&gt;Other manufacturers make a &lt;a href=&quot;https://www.amazon.com/Thunderbird-Vector-Lighter-Insert-Regular/dp/B009Z2GB16/ref=pd_sim_121_2?_encoding=UTF8&amp;amp;psc=1&amp;amp;refRID=KA26H1VBZVZZF9XSJSCM&quot;&gt;Butane fueled insert&lt;/a&gt;. This eliminates the fuel from evaporating over time. The Butane insert looks and works the same as the original with the wind guard and the flint.&lt;/p&gt;
+
+&lt;p&gt;I guess the &lt;a href=&quot;https://www.amazon.com/Thunderbird-Vector-Lighter-Insert-Regular/dp/B009Z2GB16/ref=pd_sim_121_2?_encoding=UTF8&amp;amp;psc=1&amp;amp;refRID=KA26H1VBZVZZF9XSJSCM&quot;&gt;Butane insert&lt;/a&gt; is an improvement over the lighter fluid version. But it removes a bit of the charm I think. Part of it’s charm is maintaining the lighter.&lt;/p&gt;
+
+&lt;p&gt;Things that are easy and simple sometimes lack something. It takes effort to keep the lighter filled and the wick and flint in good working order. Gratification can come from simple tasks that connect you to the world around you.&lt;/p&gt;
+
+&lt;p&gt;This idea is carried over to my preference of &lt;a href=&quot;https://linuxmint.com&quot;&gt;Linux&lt;/a&gt; over Mac or PC. I like working on a computer. Some people just want it to be an appliance. I prefer to get my hands dirty from time to time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://danaleegibson.com/images/zippo-lighters-outback.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://danaleegibson.com/images/zippo-lighters-outback.jpg&quot; alt=&quot;Two Zippo Lighters in my back yard&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Putting effort into keeping your computer or your lighter in proper working order is good for you, and your soul.&lt;/p&gt;</content><category term="story" /><category term="linux" /><summary>Can a lighter be considered art or even technology? Why do I like the Zippo lighter? Does the drawbacks of a Zippo make it a better lighter?</summary></entry><entry><title>Too Old to Use It</title><link href="http://danaleegibson.com/too-old-to-use-it/" rel="alternate" type="text/html" title="Too Old to Use It" /><published>2016-12-28T00:00:00-05:00</published><updated>2016-12-28T00:00:00-05:00</updated><id>http://danaleegibson.com/too-old-to-use-it</id><content type="html" xml:base="http://danaleegibson.com/too-old-to-use-it/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/too-old-to-use-it.jpg&quot; alt=&quot;Too old to use it&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;It is sad because even today it boots quickly and runs smoothly, but is so out of date it is next to useless. This was the first Mac I ever purchased. In today’s dollars I paid about &lt;strong&gt;$2100&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/power-mac-g5.jpg&quot; alt=&quot;Apple Poer Mac G5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It was not a top of the line unit, however over the years I added more RAM, a new video card, more hard drives, and a WiFi card. The ability to do these upgrades kept this Mac as a daily driver until 2011. Seven years is a long time, in computer years. You can’t upgrade a modern Mac like that anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/leopard-apple-g5.jpg&quot; alt=&quot;Apple OX 01.5 Leopard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This machine was a daily driver. It allowed me to make extra money by doing side jobs on it. Upgrading it was a great way to learn with the added benefit of making it better, faster, and more versatile.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-why-i-cant-seem-to-let-this-hunk-of-aluminum-and-plastic-go&quot;&gt;This is why I can’t seem to let this hunk of aluminum and plastic go.&lt;/h2&gt;
+
+&lt;p&gt;A few times a year I plug it in and lament over how well she runs. Then, I put her back in cold-storage.&lt;/p&gt;
+
+&lt;p&gt;It seems wrong to throw away (&lt;em&gt;or recycle&lt;/em&gt;) something that works so well. Even if it is kind of useless.&lt;/p&gt;</content><category term="story" /><category term="mac" /><category term="apple" /><summary>Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact.</summary></entry><entry><title>Data is an Echo of You</title><link href="http://danaleegibson.com/data-is-an-echo-of-you/" rel="alternate" type="text/html" title="Data is an Echo of You" /><published>2016-12-16T02:57:32-05:00</published><updated>2016-12-16T02:57:32-05:00</updated><id>http://danaleegibson.com/data-is-an-echo-of-you</id><content type="html" xml:base="http://danaleegibson.com/data-is-an-echo-of-you/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/data-is-an-echo-of-you.jpg&quot; alt=&quot;Data is an Echo of You&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I was tasked with bringing an old &lt;strong&gt;Microsoft Access&lt;/strong&gt; database into the 21st century. This database had been the heart of a business for almost two decades. But for the last &lt;strong&gt;6&lt;/strong&gt; years it had sat mostly unused.&lt;/p&gt;
+
+&lt;p&gt;Moving a Windows based database over to Mac is not super simple. It is not the hardest thing in the world either. It did force me to abandon my compulsion to “fix” everything.&lt;/p&gt;
+
+&lt;p&gt;Because the data was now accessed very infrequently there was no need to bring it up to todays standards, structure wise. It was not going to be an active part of the business.&lt;/p&gt;
+
+&lt;p&gt;I used an application called &lt;a href=&quot;https://eggerapps.at/mdbviewer/&quot;&gt;MDB ACCDB Viewer&lt;/a&gt;, available through the &lt;strong&gt;Apple App Store&lt;/strong&gt; for &lt;strong&gt;$19&lt;/strong&gt;. This gave me easy access to the Access database’s tables. I then exported the tables I needed in CSV format.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/filemaker-edit-layout.jpg&quot; alt=&quot;FileMaker edit layout mode&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From there I used FileMaker to recreate the database, at least the parts I needed. Linking the tables and building the layouts and the scripts was nothing special. I did have a bit of a struggle with a printing script, but thats a story for another time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/table-relationships.jpg&quot; alt=&quot;FileMaker table relation graph&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the &lt;a href=&quot;http://www.filemaker.com&quot;&gt;Filemaker database&lt;/a&gt; was finished I had to test it. I did all kinds of searching and filtering of the data. I had to return to the old data a few times to grab some more tables to make the new system a bit more flushed out.&lt;/p&gt;
+
+&lt;p&gt;When you filter through orders going as far back as &lt;strong&gt;1998&lt;/strong&gt; you can see people. In the beginning the orders were very detailed, every box was ticked, every data field was populated. Then there was a gradual change.&lt;/p&gt;
+
+&lt;p&gt;As I moved through the files, traveling forward in time, I could see someone else was entering orders. They were far less detailed orientated. The orders and customer information became far less descriptive.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-entry-decay&quot;&gt;Data Entry Decay?&lt;/h2&gt;
+
+&lt;p&gt;Like watching a tire coming apart as a truck speeds down a highway, I could see the inevitable. The change to the next person entering data was abrupt. A new style, not as bad as the last but not as good as the first.&lt;/p&gt;
+
+&lt;p&gt;It was clear there was an attempt made to be thorough and complete. By looking at the orders and the notes sections I got the sense of someone struggling. Is it even possible to get a sense of a person’s day to day life simply by how they entered data?&lt;/p&gt;
+
+&lt;p&gt;As I went through my testing the years flew past. Sales data of good months and bad months, good seasons and bad seasons seemed compressed into waves I could almost hear, like a far off beach.&lt;/p&gt;
+
+&lt;p&gt;I began to have feelings of hostility towards the people that did a very poor job of entering data. It complicated the task of testing the database. I could not simply test the system, I had to verify poor results as either a structure problem or inaccurate data entry.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-the-data-or-is-it-me&quot;&gt;Is it the Data, Or is it Me?&lt;/h3&gt;
+
+&lt;p&gt;At one point I was convinced my new system was fatally flawed. Then I realized I was testing a section of the data that was populated by someone who clearly didn’t like their job. It would be fair to say, whoever they were, they went out of their way to do a poor job.&lt;/p&gt;
+
+&lt;p&gt;This got me thinking about how I will be judged in the future. My previous careers left no chance of people in the future critiquing my work. Driving a truck is a “in the moment” type of a thing. You can’t look back, thirty years from now and review, in detail how 18 yards of concrete was delivered. (Spoiler - it was delivered expertly)&lt;/p&gt;
+
+&lt;p&gt;Working in the digital field I do work that could easily still be around, in some form or another 30, 50, maybe 70 years from now. It is not just people who work in the I.T. field either. Stuff on Facebook and YouTube could be here for many life times.&lt;/p&gt;
+
+&lt;p&gt;As I approached the current time-line, in my database testing, I softened by attitude towards the people who worked in the old system. I was struck by how much of a person could to be imprinted into such a cold medium as a database.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-thought-for-the-future&quot;&gt;A Thought for the Future&lt;/h3&gt;
+
+&lt;p&gt;There is no way for me to tell those people I felt their echo, a small vibration of their existence recorded in an obscure data entry system. And I wonder if anything I do today will be felt by someone decades from now.&lt;/p&gt;
+
+&lt;p&gt;I hope that if someone in the future is struggling with something I have worked on, or with, that they can feel my desire to do it correctly. It would be nice if they could tell I liked what I did, and I tried to do it with care.&lt;/p&gt;
+
+&lt;p&gt;Or maybe this was all in my head. Maybe it is just a database, a collection of numbers and letters in little boxes that can’t record anything about its user. But, I hope not.&lt;/p&gt;</content><summary>How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?</summary></entry><entry><title>Migrating from WordPress to Jekyll</title><link href="http://danaleegibson.com/migrate-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="Migrating from WordPress to Jekyll" /><published>2016-09-23T02:57:32-04:00</published><updated>2016-09-23T02:57:32-04:00</updated><id>http://danaleegibson.com/migrate-from-wordpress-to-jekyll</id><content type="html" xml:base="http://danaleegibson.com/migrate-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/migrate-from-wordpress-to-jekyll.jpg&quot; alt=&quot;moving from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, you want to migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; to &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to migrate from WordPress to &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and you want to bring in all your old Posts and Pages, this is what you need to do. You need to get your WordPress database, install it on a local MySQL database, then migrate it from that database to Jekyll. Simple, there you go, thank you for reading this post! Bye!&lt;/p&gt;
+
+&lt;p&gt;I wish it was that simple. I use &lt;a href=&quot;http://godaddy.com&quot;&gt;GoDaddy&lt;/a&gt; for hosting and they have cPanel which is good. Log into whatever control panel you have, go to the &lt;strong&gt;phpMyAdmin&lt;/strong&gt;. When in &lt;strong&gt;phpMyAdmin&lt;/strong&gt; find your database, click on it and click the “&lt;em&gt;Export&lt;/em&gt;” tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/cPanel-and-phpMyAdmin.jpg&quot; alt=&quot;cPanel in phpMyAdmin&quot; /&gt;
+&lt;em&gt;cPanel locate phpMyAmin&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Export screen is super simple. Just leave all the settings alone and click the Go button. It will download the database as an SQL file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/export-your-wordpress-database.jpg&quot; alt=&quot;Export your data&quot; /&gt;
+&lt;em&gt;Export your data&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You should install &lt;a href=&quot;https://mamp.info&quot;&gt;MAMP&lt;/a&gt;, it will run on a Windows, Linux or Mac system, I use a Mac. Once &lt;a href=&quot;https://mamp.info&quot;&gt;MAMP&lt;/a&gt; is installed and running, you want to go to phpMyAdmin and create a database. Once it is created, click the “Import” tab. Click the “&lt;strong&gt;Choose File&lt;/strong&gt;” button then navigate to the SQL file you downloaded from you hosting account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/create-a-new-database.jpg&quot; alt=&quot;create a database in phpmyadmimn&quot; /&gt;
+&lt;em&gt;Create a Database&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/import-wordpress-data.jpg&quot; alt=&quot;import the wordpress data&quot; /&gt;
+&lt;em&gt;Import the WordPress data&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;migrate-from-wordpress--now-for-jekyll&quot;&gt;Migrate from WordPress – Now for Jekyll&lt;/h2&gt;
+&lt;p&gt;I am assuming you have &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; installed and you have created a new &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; project. After that is done you should have a folder that looks something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/default-jekyll-project-folder.jpg&quot; alt=&quot;default Jekyll folder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The default Jekyll website looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/default-jekyl-website.jpg&quot; alt=&quot;Migrating from WordPress - Jekyll default website&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The default theme that &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; uses (at the time this was written) is called Minima. I found it helpful to &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;download the Minima theme&lt;/a&gt; so you have the default files to deal with.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/minima-folder-files.jpg&quot; alt=&quot;minima-folder-files&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it is time to import the data from your local &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; database. This can be tricky and you can run into some problems. I have done this before without any issues. Then when I try and do it a week later I have nothing but issues. It is important to stay calm and work the problem and not get frustrated.&lt;/p&gt;
+
+&lt;p&gt;For example, this last time I had to add the following to the Gemfile. I didn’t have to do this the last time.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;sequel&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;unidecode&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/gemfile-and-added-gems.jpg&quot; alt=&quot;migrating from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also ran into a problem with the &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; import. I had to install it using this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s not the end either. I had to install the following in order to get Ruby to connect to the database.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install mysql2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Connecting to the database was another issue. If you are using MAMP the “&lt;em&gt;Path&lt;/em&gt;” is very specific and something I struggled with. The Path you want to use it:&lt;/p&gt;
+
+&lt;p&gt;1
+/Applications/MAMP/tmp/mysql/mysql.sock
+The import code you enter in the command line is posted on the Jekyll website in the migration section. Below is what I used, remember you will need to put in your own database name, user, and password. This is the code I used:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby -rubygems -e &#39;require &quot;jekyll-import&quot;;
+    JekyllImport::Importers::WordPress.run({
+      &quot;dbname&quot;   =&amp;gt; &quot;group-1&quot;,
+      &quot;user&quot;     =&amp;gt; &quot;root&quot;,
+      &quot;password&quot; =&amp;gt; &quot;root&quot;,
+      &quot;host&quot;     =&amp;gt; &quot;localhost&quot;,
+      &quot;socket&quot;   =&amp;gt; &quot;/Applications/MAMP/tmp/mysql/mysql.sock&quot;,
+      &quot;table_prefix&quot;   =&amp;gt; &quot;wp_&quot;,
+      &quot;site_prefix&quot;    =&amp;gt; &quot;&quot;,
+      &quot;clean_entities&quot; =&amp;gt; true,
+      &quot;comments&quot;       =&amp;gt; true,
+      &quot;categories&quot;     =&amp;gt; true,
+      &quot;tags&quot;           =&amp;gt; true,
+      &quot;more_excerpt&quot;   =&amp;gt; true,
+      &quot;more_anchor&quot;    =&amp;gt; true,
+      &quot;extension&quot;      =&amp;gt; &quot;html&quot;,
+      &quot;status&quot;         =&amp;gt; [&quot;publish&quot;]
+    })&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;### Migration is not 100% Perfect
+Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; it will go smoothly. I said before, if you get errors work them. Copy and paste them in Google, read what other people did to fix the issues. It is not that difficult to figure out, I did and so can you.&lt;/p&gt;
+
+&lt;p&gt;The result will be a horrible looking website. But that is what you get when you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt;. This is what my site looked like after the migration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/website-after-wordpress-migration.jpg&quot; alt=&quot;migrate from WordPress website-after-wordpress-migration&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This does require a lot of clean-up and moving of images. But it does a lot of the heavy lifting up front. It might look messy but it gives you a jumping off point. You now have all the content from your &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; site in &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I just want to remind people that I am still learning. I do not know all the tricks. I am just putting this out there for people like me. I believe that it is important to share your knowledge and help other people. Everyday in my journey of learning I am thankful for the countless people out there that are willing to share what they know. I hope this helps someone.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>So, you want to migrate from WordPress to Jekyll. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.</summary></entry><entry><title>To Jekyll or Not</title><link href="http://danaleegibson.com/jekyll-not-jekyll-static-site/" rel="alternate" type="text/html" title="To Jekyll or Not" /><published>2016-09-16T18:45:41-04:00</published><updated>2016-09-16T18:45:41-04:00</updated><id>http://danaleegibson.com/jekyll-not-jekyll-static-site</id><content type="html" xml:base="http://danaleegibson.com/jekyll-not-jekyll-static-site/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/to-jekyll-or-not-static-site.jpg&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Back in the beginning &lt;a href=&quot;http://info.cern.ch/hypertext/WWW/TheProject.html&quot;&gt;the very first website was static&lt;/a&gt;. Meaning, it was a folder with some HTML documents in it. The user would navigate between the documents &lt;em&gt;pages&lt;/em&gt; with hyperlinks. As websites grew it was necessary &lt;em&gt;and popular&lt;/em&gt; to use SQL-based relational databases to keep the content separate from the design.&lt;/p&gt;
+
+&lt;p&gt;Websites eventually moved towards using what is called a LAMP stack and CMS’s like &lt;a href=&quot;https://wordpress.com&quot;&gt;WordPress&lt;/a&gt;, &lt;a href=&quot;https://www.joomla.org&quot;&gt;Joomla&lt;/a&gt;, and &lt;a href=&quot;https://www.drupal.org&quot;&gt;Drupal&lt;/a&gt;. These are dynamic, database driven sites. Although they solved a lot of problems at the time and moved the internet forward, they are not without their own problems.&lt;/p&gt;
+
+&lt;p&gt;These CMS’s are very vulnerable to known exploits. Beyond security, scaling a database driven site is a problem. The complexity of these sites running dynamic code is huge. It can be very costly to get the needed performance out of a hosting account.&lt;/p&gt;
+
+&lt;p&gt;Hosting companies like &lt;strong&gt;GoDaddy&lt;/strong&gt; will entice you with a &lt;strong&gt;$3.99&lt;/strong&gt; per month hosting account. They will have one click, CMS of your choice, installation. It all looks grand. The reality is, once your website is up it will soon run out of resources. It will be slow, it will stall, it will hang.&lt;/p&gt;
+
+&lt;p&gt;When you call to get the problem solved they will immediately tell you that you need to move to a higher, more powerful hosting plan. Next thing you know, to get your “simple” blog running you are now paying &lt;strong&gt;$7.99&lt;/strong&gt; per month &lt;em&gt;or a LOT more&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then there is security. To keep the site current and safe from exploits takes a lot of man hours. You can not let you WordPress site sit. The site and the plugins must be kept updated. Remember the &lt;a href=&quot;https://www.wordfence.com/blog/2016/04/panama-papers-wordpress-email-connection/&quot;&gt;Panama Pagers information leak&lt;/a&gt;? That all started with an out of date version of WordPress.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/panama-papers-leak.jpg&quot; alt=&quot;Panama Papers&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is not uncommon for people to expect to be able to maintain the CMS themselves. This notion quickly fades as other demands keep people from learning all the ins-and-outs. Consequently they never pick up the skills needed and end up paying someone else to keep things current and secure.&lt;/p&gt;
+
+&lt;p&gt;Static sites avoid a lot of the pitfalls of a dynamic driven site. They have no database to drive them. Static sites do not need the resource heavy, expensive, powerful web hosting for them to perform well. Because they are static there is nothing to maintain and nothing to exploit.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-havent-youbeen-using-a-static-site-all-along&quot;&gt;Why haven’t you been using a static site all along?&lt;/h2&gt;
+
+&lt;p&gt;Web browsers are very powerful today compared to just 5 years ago. Many things that once needed to be run on a web server can now be taken care of within the browser. Advancements in internet speeds as well as the incredible advancements in electronic devices has shifted the playing field.&lt;/p&gt;
+
+&lt;p&gt;Basically, this is not your father’s tech world. Well, to be more accurate, this is not your tech world from 8 years ago. Things have changed and the older model of a static website can now have all the features of a dynamic driven site, without the pitfalls.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what-the-hell-is-jekyll&quot;&gt;So, What the Hell is Jekyll?&lt;/h3&gt;
+
+&lt;p&gt;My pick for a static site builders is something called &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. To over simplify it, you build the site locally. As you build it, using templates, includes, and &lt;a href=&quot;http://whatismarkdown.com&quot;&gt;MarkDown&lt;/a&gt; it compiles all the static files in one folder for you. Then you can just upload the content of that folder to your web hosting service and you have a static site.&lt;/p&gt;
+
+&lt;p&gt;Now, that is a massive over simplification but still true to the facts. It is more work to setup, initially, as a standard CMS bight be. However you get back all that time in the form of much easier maintaining and updating.&lt;/p&gt;
+
+&lt;p&gt;I have been working with &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; for some time and I appreciate what it can do. It is not for every site but I have found it could be useful to a lot. Many people start off with grand ideas of using every resource a WordPress driven site can offer. Only to find out a year on that they are not using a tenth of what they had envisioned.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-a-static-site-right-for-you&quot;&gt;Is a Static Site Right For You?&lt;/h3&gt;
+
+&lt;p&gt;It comes down to having a realistic view of what your website will do. Once you realize your website is not going to be as fancy as &lt;a href=&quot;https://www.tesla.com&quot;&gt;Tesla’s&lt;/a&gt; or Facebook. You may come to the conclusion that a static site might be the right fit for you. A static site is also very flexible and expandable which makes it a great choice if you are starting a new site.&lt;/p&gt;
+
+&lt;p&gt;Should you Jekyll? I would bet a lot of sites would benefit greatly from switching to a static format. I also believe you will see more and more static sites in the future. We are coming around full circle. A modern static site is a far cry from the very first website. But in spirit, it has a connection to the very beginning of the web.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.</summary></entry><entry><title>How Long Can it Go On!</title><link href="http://danaleegibson.com/long-can-go/" rel="alternate" type="text/html" title="How Long Can it Go On!" /><published>2016-09-06T18:45:41-04:00</published><updated>2016-09-06T18:45:41-04:00</updated><id>http://danaleegibson.com/how-log-can-this-go-on</id><content type="html" xml:base="http://danaleegibson.com/long-can-go/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/how-long-can-this-go-on.jpg&quot; alt=&quot;how long&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It was 1988, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ronald_Reagan&quot;&gt;Ronald Regan &lt;/a&gt;was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;It was not my fault. We were following what we thought were proper procedures. To be honest we had no idea what proper procedures were. Young men are task orientated, which is great for productivity but horrible for safety.&lt;/p&gt;
+
+&lt;p&gt;The technical aspects are not important, suffice it to say there was an “event”. A 2500 degree furnace experienced a positive pressure condition. At this moment myself and Kevin Lemoine happened to be standing in front of an open door to the furnace.&lt;/p&gt;
+
+&lt;p&gt;The blast of super hot air and ash resulted in second and third degree burns on 20% of my body. It was completely painless. Within seconds both my forearms, from wrist to elbow were giant blisters filled with about half a cup each of a yellowish fluid. The pain came days and weeks later when twice a day the raw flesh had to be scrubbed free of any dead skin and then re-wrapped.&lt;/p&gt;
+
+&lt;p&gt;Cut to six months later, I was sitting in an office in a nondescript strip mall just outside of Worcester Massachusetts. I was waiting to get my scars measured, I had no idea why I was there, except that my employer had insisted I go. After they asked me to disrobe they proceeded to measure all my scars.&lt;/p&gt;
+
+&lt;p&gt;Thirty days after the odd scar measuring in Worcester I got a check for $5000. It was a win-fall, I had not seen that much money in one place out side of Cartagena Colombia. Naturally, as all 23 year-olds with a stack of found money would do, I rushed to Sears and bought the best washer / dryer combo I could find.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-the-hell-is-this-post-about&quot;&gt;What the Hell is This Post About?&lt;/h2&gt;
+
+&lt;p&gt;These two, off white, high capacity Kenmore appliances were the top of the line in 1988. No expense was spaired. I even purchased the extended warranty and the 3 year home service plan. The last decision would prove, in the long run, to be a poor one.&lt;/p&gt;
+
+&lt;p&gt;This pair of appliances went everywhere with me. They were first installed in the apartment I shared with my first wife, god rest her soul, in Worcester. She’s not dead, but I can dream. Next the appliances went with us when we moved to Florida.&lt;/p&gt;
+
+&lt;p&gt;The first 6 months they were put in storage while we stayed in an apartment . Once we found a house they moved in with us. For 5 years everything was lovey-dovey, meaning the appliances worked great. If only the marriage worked as well. So it came to pass that the appliances moved with me to a one bedroom apartment.&lt;/p&gt;
+
+&lt;p&gt;We enjoyed our bachelor life together for a long time. Then came Ester and after a few years the appliances were back in storage while we built a new home.&lt;/p&gt;
+
+&lt;p&gt;Back in 2003 we took the 15 year old appliances from storage and put them in their new home. Here they have stayed, working faithfully for the past 13 years.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-there-a-point-to-this-story&quot;&gt;Is there a Point to this story!?&lt;/h2&gt;
+
+&lt;p&gt;Aside from some agitator dogs in the washer and a light in the dryer we have done zero repairs and zero maintenance. That is until today. As it happens the washer didn’t spin its last load yesterday. Everything else was normal, it just didn’t spin dry at the end.&lt;/p&gt;
+
+&lt;p&gt;As usual we hit Google and YouTube hard looking for advice and troubleshooting tutorials. We decided to take the washer apart and see if a $10 part had broken or if it was a more serious problem. Moving it was not pleasant, it apparently still had a good amount of water in it. Most likely from us squeezing out the wet clothes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/on-the-operating-table.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We got the old girl up on the kitchen table and looked up her bottom end. We pulled her guts out and examined all her parts. Everything was absolutely disgusting but totally intact. We could find no problems. We had no choice but to clean her up the best we could and put her back together.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/guts-taken-out.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We have run 3 loads through her so far. All seems well. As a matter of fact she fills with water like never before. It helps to clean the water intake screens once in a while. We are optimistic for the future, we had no idea how backwards and helpless one feels without a clothes washer in the house.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/what-a-mess.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So that is the story about how a near death experience, resulting in excruciatingly painful burns and scarring brought me together with the best, and only  washer / dryer combo I have ever had. I got them when I was a young man of 23. They have washed my clothes every week since then. I am now an old man of 51. I have been married twice, and even though my current wife, Ester, is my heart and soul, my longest, most steady and fulfilling relationship has been with my washer &amp;amp; dryer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/all-cleaned-up.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;</content><category term="story" /><summary>It was 1988, Ronald Regan was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.</summary></entry><entry><title>Reset the Permalinks using MySQL</title><link href="http://danaleegibson.com/reset-permalinks-using-mysql/" rel="alternate" type="text/html" title="Reset the Permalinks using MySQL" /><published>2016-04-20T18:45:41-04:00</published><updated>2016-04-20T18:45:41-04:00</updated><id>http://danaleegibson.com/reset-permalinks-using-mysql</id><content type="html" xml:base="http://danaleegibson.com/reset-permalinks-using-mysql/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/reset-permalinks-using-mysql.jpg&quot; alt=&quot;permalikns and how to reset them&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I was migrating a site to a new Hosting account. The original hosting had the WordPress installation in a sub folder. However on the new hosting account there was no sub folder. This caused a huge problem and WordPress was looking for resources in a folder that didn’t exist.&lt;/p&gt;
+
+&lt;p&gt;The site worked, kind of, okay, it was a mess. This was because the Permalink structure was looking for a sub folder that didn’t exist. There was no way to log into the admin area and update it. All I was getting was a &lt;strong&gt;404&lt;/strong&gt; Page Not Found error when attempting to access the login page.&lt;/p&gt;
+
+&lt;h2 id=&quot;reset-the-permalinks&quot;&gt;Reset the Permalinks&lt;/h2&gt;
+
+&lt;p&gt;If you have more than one WordPress website on your hosting account you’ll need to know the name of your database. You can find that by either using the File Manager in cPanel or a FTP client and getting a look at your WordPress files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/the-wp-confog-file.jpg&quot; alt=&quot;WordPress config file&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to open a file called “&lt;strong&gt;wp-config.php&lt;/strong&gt;” with any text editor. You are looking for the line that says &lt;strong&gt;/&lt;/strong&gt; The name of the database for WordPress */** right under that will be the name of the database. In this example the database name is &lt;strong&gt;danapress&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/wp-config-textmate.jpg&quot; alt=&quot;TextMate&quot; /&gt;
+Then go to your cPanel, look for the Databases section and click on the “&lt;strong&gt;phpMyAdmin&lt;/strong&gt;” icon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/cPanel-databases.jpg&quot; alt=&quot;cPanel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the left column, look for the name of your database. Expand it and look for the table called “&lt;strong&gt;wp-options&lt;/strong&gt;”. In that table you are looking for the “option_name” of “&lt;strong&gt;siteurl&lt;/strong&gt;” and “&lt;strong&gt;home&lt;/strong&gt;”. Buy editing these two rows in this table you can fix the Permalinks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/danapress-phpmyadmin.jpg&quot; alt=&quot;phpMyAdmin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this example the sub folder is called “&lt;strong&gt;wp&lt;/strong&gt;”. Once that is removed and the &lt;strong&gt;siteurl&lt;/strong&gt; and the &lt;strong&gt;home&lt;/strong&gt; match, the site should work properly again.
+You should now be able to log into the admin side. I would suggest you then reset your Permalinks from there, just in case.
+As always when working within the database be &lt;strong&gt;VERY CAREFUL&lt;/strong&gt;. Having said that, it is very simple and straightforward to edit the database.&lt;/p&gt;</content><category term="help" /><category term="mysql" /><category term="wordpress" /><summary>What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.</summary></entry><entry><title>Vintage, what does that mean?</title><link href="http://danaleegibson.com/vintage-what-does-that-mean/" rel="alternate" type="text/html" title="Vintage, what does that mean?" /><published>2016-01-04T17:45:41-05:00</published><updated>2016-01-04T17:45:41-05:00</updated><id>http://danaleegibson.com/vintage-what-does-that-mean</id><content type="html" xml:base="http://danaleegibson.com/vintage-what-does-that-mean/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/obsolete-mac-mini-maybe.jpg&quot; alt=&quot;Apple makes thigs vintage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is not an attack!! It is a warning! We now live in a time when something that is 5 years old is called “&lt;strong&gt;vintage&lt;/strong&gt;”. And if your computer is 7 or more years old, you and it are obsolete.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.macrumors.com/2015/12/22/apple-obsoletes-select-2008-2009-macs&quot;&gt;Apple&lt;/a&gt; defines vintage products as those that have not been manufactured for more than five and less than seven years ago, while obsolete products are those that were discontinued more than seven years ago.”&lt;/p&gt;
+
+&lt;p&gt;To me the word “&lt;strong&gt;vintage&lt;/strong&gt;” means old and outmoded (&lt;em&gt;except for wine&lt;/em&gt;). Just because something isn’t as fancy as the newest tech doesn’t mean its outmoded. A fax machine is outmoded, not a 5 year old computer.&lt;/p&gt;
+
+&lt;p&gt;I have a Compaq Presario CQ56 laptop which is 6 years old. It is running Linux Mint 17.2 operating system. I use it all the time and its great. It runs so well I’m going to upgrade it to a SSD hard drive. I would in no way describe it as “&lt;strong&gt;vintage&lt;/strong&gt;” or &lt;strong&gt;outmoded&lt;/strong&gt;. It does its job very nicely, as a matter of fact, it runs better now than it did when new.&lt;/p&gt;
+
+&lt;p&gt;The Linux operating system uses less resources than the original Windows 7 operating system it came with did. It already boots faster than a 1.5 year old Asus laptop running Windows 8. When I install the Solid State Drive it will be vastly faster than when new.&lt;/p&gt;
+
+&lt;h2 id=&quot;danger-of-vintage&quot;&gt;Danger of Vintage!&lt;/h2&gt;
+
+&lt;p&gt;This trend to call things a few years old as &lt;strong&gt;vintage&lt;/strong&gt; or obsolete is, in my eyes, dangerous. It breeds excessive consumerism. It devalues performance, durability and upgradability. If we blindly buy new products because we are told what we have is vintage, we incentivize manufactures to build things that will have shorter and shorter lives.&lt;/p&gt;
+
+&lt;p&gt;The goal of modern technological advances should not be shorter lived products. With more knowledge, better materials, and sophisticated design we should be building products that last longer and run better.&lt;/p&gt;
+
+&lt;p&gt;Apple makes an amazing product, that is not the issue. The issue is the philosophy of what is vintage or obsolete. I have a Mac G5 Pro that is 10 years old and it runs great! But according to Apple it is obsolete. It might just be simple verbiage they use, but words matter, words have meaning. They can be used to build a mind set.&lt;/p&gt;
+
+&lt;p&gt;It was not that long ago that we, as American consumers valued durability and longevity in what we purchased. I fear we have been swayed by powerful forces to value the latest, the newest, the shiny sparkly things the most. We do this at our own peril.&lt;/p&gt;</content><category term="apple" /><summary>This is not an attack!! It is a warning! We now live in a time when something that is 5 years old is called “vintage”. And if your computer is 7 or more years old, you and it are obsolete.</summary></entry><entry><title>Adding a SSD to a Mini</title><link href="http://danaleegibson.com/adding-a-ssd-to-a-mini/" rel="alternate" type="text/html" title="Adding a SSD to a Mini" /><published>2015-12-12T17:45:41-05:00</published><updated>2015-12-12T17:45:41-05:00</updated><id>http://danaleegibson.com/adding-a-ssd-to-a-mini</id><content type="html" xml:base="http://danaleegibson.com/adding-a-ssd-to-a-mini/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/Mac-Mini-SSD.jpg&quot; alt=&quot;New SSD in a Mac Mini&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My 2011 Mac Mini was getting long in the tooth. With the upgrade to &lt;a href=&quot;http://www.apple.com/osx/&quot;&gt;El Capitan operating system&lt;/a&gt; the Mini was definitely struggling. Apple may say that the new operating system is faster, but my real world experience was the exact opposite.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I first tried to speed things up with the addition of more &lt;strong&gt;RAM&lt;/strong&gt;. I ordered &lt;strong&gt;12GB&lt;/strong&gt; from &lt;a href=&quot;http://eshop.macsales.com&amp;quot; target=&amp;quot;_blank&quot;&gt;OWC (Other World Computing)&lt;/a&gt; which for me is the best place to get stuff for your Mac. My Mini has been running on &lt;a href=&quot;http://eshop.macsales.com&amp;quot; target=&amp;quot;_blank&quot;&gt;OWC&lt;/a&gt; &lt;strong&gt;RAM&lt;/strong&gt; for the past 3+ years. Having said that, the first batch of &lt;strong&gt;RAM&lt;/strong&gt; I got was not perfect. One of the two &lt;strong&gt;8GB&lt;/strong&gt; sticks was not working. However the people at &lt;a href=&quot;http://eshop.macsales.com&amp;quot; target=&amp;quot;_blank&quot;&gt;OWC&lt;/a&gt; were great and I got a replacement right away. By that I mean like a week later.&lt;/p&gt;
+
+&lt;p&gt;With only marginally noticeable increases in speed and performance from adding more &lt;strong&gt;RAM&lt;/strong&gt; I moved on to upgrading the hard drive. I chose the &lt;a href=&quot;http://eshop.macsales.com/item/OWC/SSD7E6G480/&quot;&gt;480GB, Mercury Electra™ 6G&lt;/a&gt; &lt;strong&gt;SSD&lt;/strong&gt;, 2.5” Serial-ATA 7mm Solid State Drive from &lt;a href=&quot;http://eshop.macsales.com&amp;quot; target=&amp;quot;_blank&quot;&gt;OWC&lt;/a&gt;. The &lt;strong&gt;2.5” SATA SSD&lt;/strong&gt; uses the latest SandForce 2281 Processor and DuraClass™ technology to deliver the highest transfer speed, endurance, and performance available today. It comes with a 3 year &lt;a href=&quot;http://eshop.macsales.com&quot;&gt;OWC&lt;/a&gt; SSD Limited warranty. The old hard drive was a &lt;strong&gt;750GB&lt;/strong&gt; drive which I intended to use as additional internal storage. Stuffing two hard drives into a Mac Mini is a bit of a trick.&lt;/p&gt;
+
+&lt;p&gt;Luckily the Mid 2011 Mac Mini is capable of housing two(2) internal hard drives. The trick is to purchase the &lt;a href=&quot;http://eshop.macsales.com/item/OWC/DIDIMM11D2/&quot;&gt;OWC DIY Data Doubler Mounting Kit&lt;/a&gt; which has all the tools and components you need. &lt;a href=&quot;http://eshop.macsales.com&quot;&gt;OWC&lt;/a&gt; also has very detailed videos showing exactly how to remove the old hard drive and install the &lt;strong&gt;SSD&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I now had all the hardware and tools I needed for the operation. But before you can change-out a hard drive you need to duplicate the old drive to the new drive. While doing this I came across a problem. Even though I only had &lt;strong&gt;110GB&lt;/strong&gt; of data on the old &lt;strong&gt;750GB&lt;/strong&gt; drive, when I tried to duplicate the &lt;strong&gt;750GB&lt;/strong&gt; to the &lt;strong&gt;480GB&lt;/strong&gt; &lt;strong&gt;SSD&lt;/strong&gt; it would fail and give the error “&lt;em&gt;destination drive is too small&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;p&gt;This perplexed me for two days. Finally I came across the answer. The Apple Disk Utility doesn’t care about the data on the drive, it just looks at the whole drive size. In order to “&lt;em&gt;trick&lt;/em&gt;” or “&lt;em&gt;fool&lt;/em&gt;” the Disk Utility what you need to do is partition the old (&lt;em&gt;larger&lt;/em&gt;) drive. I partitioned the &lt;strong&gt;750GB&lt;/strong&gt; drive into two(2) &lt;strong&gt;375GB&lt;/strong&gt; sections. This gave enough room for my data and made sure that neither partition was larger than the new &lt;strong&gt;480GB SSD&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/external-ssd-connection.jpg&quot; alt=&quot;SSD externally connected&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Years ago I purchased this cool set of wires and plugs that let you connect almost any type of hard drive to a computer via the &lt;strong&gt;USB&lt;/strong&gt; port. It is perfect for this type of operation. I only wish they made a Thunderbolt connected version.&lt;/p&gt;
+
+&lt;p&gt;I booted into the recover partition by holding down the &lt;strong&gt;&lt;em&gt;Command &amp;amp; R&lt;/em&gt;&lt;/strong&gt; keys after the startup chime. I then used the Disk Utility to Partition the old hard drive. Once that was done I used the “&lt;em&gt;Restore&lt;/em&gt;” feature to duplicate the old hard drive to the new &lt;strong&gt;SSD&lt;/strong&gt;. When that was completed I verified the duplication by booting up using the externally connected &lt;strong&gt;SSD&lt;/strong&gt;. When you boot up hold down the “&lt;strong&gt;&lt;em&gt;Option&lt;/em&gt;&lt;/strong&gt;” key and you can choose which bootable drive to boot from.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/mac-mini-taken-apart.jpg&quot; alt=&quot;SSD installation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now I was ready to swap out the drives. I followed the very clear, well written, full color instructions that came with the &lt;a href=&quot;http://eshop.macsales.com&quot;&gt;OWC&lt;/a&gt; &lt;a href=&quot;http://eshop.macsales.com/item/OWC/DIDIMM11D2/&quot;&gt;DIY Data Doubler Mounting Kit&lt;/a&gt;. It took about a half hour to complete the upgrade. It went very smooth and I would recommend this kit and this upgrade to anyone with a Mac Mini (&lt;em&gt;2012 or later&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;The difference in performance is &lt;strong&gt;AMAZING!&lt;/strong&gt; It is like a whole new computer. Everything launched faster, and runs faster, it is truly astonishing. It also runs much, much cooler and quieter, and the Mini was almost silent before.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-a-ssd-bad-news&quot;&gt;Adding a SSD Bad News!!&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately being able to upgrade a Mac Mini like this no longer exists. Unless you have an older machine like mine you are stuck. Apple has decided that they do not want owners of their new Mac Mini to be able to do any upgrades. I find this very unfortunate and a bit depressing. The new Mini’s do not allow for easy access to the internals and they do not allow for upgrades to the RAM.&lt;/p&gt;
+
+&lt;p&gt;One of the strengths Apple had was their treating customers as smart people. By designing and building their computers to be easily worked on they paid respect to their customers. If I was not able to upgrade my Mini I would be FORCED to buy a new computer. Eventually I will need to buy a new computer, but because I was able to upgrade just a few things I have added extra value to my purchase.&lt;/p&gt;
+
+&lt;p&gt;The only logical explanation for Apples decision to change how they make the Mac Mini (and their other products) is because it makes them more money. If I can’t open, work on, or upgrade my computer the only other alternative is to purchase a new one.&lt;/p&gt;
+
+&lt;p&gt;I feel sad for the next generation of kids. They will never know the joy of learning how to work on a computer. You get a vaster field of understanding when you open and work on a computer. There is great satisfaction that comes from fixing a problem. It is very sad to think that people will be kept from the feeling of accomplishment (and self-worth) you get when you upgrade a computer and can see and feel the tangible results of your hard work.&lt;/p&gt;</content><category term="help" /><category term="apple" /><summary>My 2011 Mac Mini was getting long in the tooth. With the upgrade to El Capitan operating system the Mini was definitely struggling. Apple may say that the new operating system is faster, but my real world experience was the exact opposite.</summary></entry></feed>
