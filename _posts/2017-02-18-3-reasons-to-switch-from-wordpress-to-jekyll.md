@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 3 Reasons to Switch from WordPress to Jekyll
-description: "These are the 3 reasons I switched away from WordPressand to using Jekyll a static website builder."
+description: "These are the 3 reasons I switched away from WordPress and to using Jekyll a static website builder."
 modified: 2017-02-18
 tags: [jekyll, wordpress]
-
+image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 ---
 ![3 Reasons to Switch from WordPress to Jekyll]({{  site.baseurl | prepend: site.url }}/images/3-reasons-to-switch-from-wordpress-to-jekyll.jpg)
 

@@ -4,7 +4,7 @@ title: Is a Zippo Tech or Art?
 description: "Can a Zippo Lighter be both art and technology, can a tool be beautiful, is simple not that great?"
 modified: 2017-01-05
 tags: [story, linux]
-
+image: is-zippo-tech-and-art.jpg
 ---
 
 ![Zippo Lighter is Art & Technology]({{  site.baseurl | prepend: site.url }}/images/is-zippo-tech-and-art.jpg)
