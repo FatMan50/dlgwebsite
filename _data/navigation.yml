@@ -1,0 +1,16 @@
+# Menu navigation links
+
+- title: Contact Me
+  url: /contact-me/
+
+- title: I.T. Services
+  url: /it-services/
+
+- title: Portfolio
+  url: /portfolio/
+
+- title: References
+  url: /references/
+
+- title: What is Dudeism?
+  url: http://dudeism.com
