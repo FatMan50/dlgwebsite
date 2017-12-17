@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://danaleegibson.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://danaleegibson.com/" rel="alternate" type="text/html" /><updated>2017-11-05T14:34:01-05:00</updated><id>http://danaleegibson.com/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>Jekyll and Facebook OG Images</title><link href="http://danaleegibson.com/jekyll-and-facebook-og-images/" rel="alternate" type="text/html" title="Jekyll and Facebook OG Images" /><published>2017-02-19T00:00:00-05:00</published><updated>2017-02-19T00:00:00-05:00</updated><id>http://danaleegibson.com/jekyll-and-facebook-og-images</id><content type="html" xml:base="http://danaleegibson.com/jekyll-and-facebook-og-images/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/jekyll-and-facebook-og-images.jpg&quot; alt=&quot;Jekyll and Facebook OG images&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-16T21:58:32-05:00</updated><id>http://localhost:4000/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>Jekyll and Facebook OG Images</title><link href="http://localhost:4000/jekyll-and-facebook-og-images/" rel="alternate" type="text/html" title="Jekyll and Facebook OG Images" /><published>2017-02-19T00:00:00-05:00</published><updated>2017-02-19T00:00:00-05:00</updated><id>http://localhost:4000/jekyll-and-facebook-og-images</id><content type="html" xml:base="http://localhost:4000/jekyll-and-facebook-og-images/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-and-facebook-og-images.jpg&quot; alt=&quot;Jekyll and Facebook OG images&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This might be very basic stuff but I figured it out and wanted to share it. For me it was not so basic or clear. I did a lot of Googling and could not find the answer. Usually that means it is super simple and no one needs to look up the answer. Except, well, for me.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;So you have your cool &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; driven, static website blog up and running on GitHub Pages (&lt;em&gt;a really useful free resource&lt;/em&gt;). And you have written a super cool blog post you want to share with the world! However, when you go to post a link on Facebook the main image of the post doesn’t show, what do you do?&lt;/p&gt;
 
-&lt;h2 id=&quot;every-jekyllhttpsjekyllrbcom-setup-is-different-this-is-what-i-did&quot;&gt;Every &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; setup is different, this is what I did.&lt;/h2&gt;
+&lt;h2 id=&quot;every-jekyll-setup-is-different-this-is-what-i-did&quot;&gt;Every &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; setup is different, this is what I did.&lt;/h2&gt;
 
 &lt;p&gt;Facebook uses the &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://ogp.me/&quot;&gt;Open Graph protocol&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; (&lt;strong&gt;&lt;em&gt;OG&lt;/em&gt;&lt;/strong&gt;) which enables any web page to become a rich object in a social graph. This is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.&lt;/p&gt;
 
 &lt;p&gt;I added this code to the head.html file that is located in the “&lt;strong&gt;&lt;em&gt;_includes&lt;/em&gt;&lt;/strong&gt;” folder of my Jekyll setup. This is the Open Graph stuff Facebook uses!&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot;&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot;&amp;gt;
 &amp;lt;meta property=&quot;og:type&quot; content=&quot;article&quot;&amp;gt;
 &amp;lt;meta property=&quot;og:title&quot; content=&quot;{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}&quot;&amp;gt;
 &amp;lt;meta property=&quot;og:description&quot; content=&quot;{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}&quot;&amp;gt;
@@ -20,22 +20,20 @@
 
 &amp;lt;meta property=&quot;og:image:width&quot; content=&quot;637&quot; /&amp;gt;
 &amp;lt;meta property=&quot;og:image:height&quot; content=&quot;403&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The important part of all that code is the parts about calling the image (&lt;strong&gt;&lt;em&gt;property=“og:image”&lt;/em&gt;&lt;/strong&gt;) and setting the size. Facebook likes to have a specific size set.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-liquid-markup-for-calling-an-image-is&quot;&gt;The liquid markup for calling an image is:&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta property=&quot;og:image&quot; content=&quot;{{ site.url }}/images/{{ page.image }}&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta property=&quot;og:image&quot; content=&quot;{{ site.url }}/images/{{ page.image }}&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You have now set up the OG tags in the “&lt;em&gt;head&lt;/em&gt;” but where is it getting the images from? Well you set the image in the &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML front matter&lt;/a&gt; of the post. As you know all Jekyll posts use the &lt;a href=&quot;http://www.yaml.org/&quot;&gt;YAML&lt;/a&gt; (YAML Ain’t Markup Language). &lt;a href=&quot;http://www.yaml.org/&quot;&gt;YAML&lt;/a&gt; is a human friendly data serialization standard for all programming languages.&lt;/p&gt;
 
-&lt;h3 id=&quot;here-is-an-example-of-setting-an-image-in-the-yaml-front-matterhttpsjekyllrbcomdocsfrontmatter&quot;&gt;Here is an example of setting an image in the &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML Front Matter&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;:&lt;/h3&gt;
+&lt;h3 id=&quot;here-is-an-example-of-setting-an-image-in-the-yaml-front-matter&quot;&gt;Here is an example of setting an image in the &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML Front Matter&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;:&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 layout: post
 title: 3 Reasons to Switch from WordPress to Jekyll
 description: &quot;These are the 3 reasons I switched away from WordPress and to using Jekyll a static website builder.&quot;
@@ -43,37 +41,36 @@ modified: 2017-02-18
 tags: [jekyll, wordpress]
 image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 ---
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;By adding the “&lt;strong&gt;image:&lt;/strong&gt;*” to the Front Matter you have told Jekyll what image is associated with this post.&lt;/p&gt;
 
-&lt;p&gt;And that is about it! You have included in every Page and Post an og:image tag. And you have declared in every Post’s YAML Front Matter what image goes with that Post. Now Facebook has all the data it needs to display your super cool Post along with its Wicked Catchy image.&lt;/p&gt;</content><category term="jekyll" /><category term="facebook" /><category term="Open Graph" /><summary>This might be very basic stuff but I figured it out and wanted to share it. For me it was not so basic or clear. I did a lot of Googling and could not find the answer. Usually that means it is super simple and no one needs to look up the answer. Except, well, for me.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comjekyll-and-facebook-og-images.jpg" /></entry><entry><title>3 Reasons to Switch from WordPress to Jekyll</title><link href="http://danaleegibson.com/3-reasons-to-switch-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="3 Reasons to Switch from WordPress to Jekyll" /><published>2017-02-18T00:00:00-05:00</published><updated>2017-02-18T00:00:00-05:00</updated><id>http://danaleegibson.com/3-reasons-to-switch-from-wordpress-to-jekyll</id><content type="html" xml:base="http://danaleegibson.com/3-reasons-to-switch-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/3-reasons-to-switch-from-wordpress-to-jekyll.jpg&quot; alt=&quot;3 Reasons to Switch from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And that is about it! You have included in every Page and Post an og:image tag. And you have declared in every Post’s YAML Front Matter what image goes with that Post. Now Facebook has all the data it needs to display your super cool Post along with its Wicked Catchy image.&lt;/p&gt;</content><category term="jekyll" /><category term="facebook" /><category term="Open Graph" /><summary>This might be very basic stuff but I figured it out and wanted to share it. For me it was not so basic or clear. I did a lot of Googling and could not find the answer. Usually that means it is super simple and no one needs to look up the answer. Except, well, for me.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000jekyll-and-facebook-og-images.jpg" /></entry><entry><title>3 Reasons to Switch from WordPress to Jekyll</title><link href="http://localhost:4000/3-reasons-to-switch-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="3 Reasons to Switch from WordPress to Jekyll" /><published>2017-02-18T00:00:00-05:00</published><updated>2017-02-18T00:00:00-05:00</updated><id>http://localhost:4000/3-reasons-to-switch-from-wordpress-to-jekyll</id><content type="html" xml:base="http://localhost:4000/3-reasons-to-switch-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/3-reasons-to-switch-from-wordpress-to-jekyll.jpg&quot; alt=&quot;3 Reasons to Switch from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yes! this is a &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyl is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; driven static website. I switched to &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt;, but why? There are &lt;strong&gt;3&lt;/strong&gt; main reasons I did this. Well &lt;strong&gt;4&lt;/strong&gt; reasons really. But the forth reason might not apply to the average person or blogger.&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-is-fast&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Fast&lt;/h2&gt;
+&lt;h2 id=&quot;jekyll-is-fast&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Fast&lt;/h2&gt;
 &lt;p&gt;What I mean by that is &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is a static website builder. A static website is much faster than a dynamic one. &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is dynamic, meaning it rides on a database and uses a lot of computing power to generate dynamic pages. In the most basic sense a dynamic page doesn’t exist until someone visits it. At that time &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; and the database kick to life and build the page and send it to the visitor.&lt;/p&gt;
 
 &lt;p&gt;Dynamic sites have their place, but the reality is most bloggers and websites really don’t need it. In the real world the average person or company isn’t as popular or feature rich as FaceBook, no matter how much we’d like that to be true.&lt;/p&gt;
 
 &lt;p&gt;So lets just get the stuff we need and drop the rest. Doing so will speed up the loading of your website. In most cases simpler is faster.&lt;/p&gt;
 
-&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-is-simpler&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Simpler&lt;/h2&gt;
+&lt;h2 id=&quot;jekyll-is-simpler&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Simpler&lt;/h2&gt;
 &lt;p&gt;Lets be honest, neither &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; nor &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; are really that simple. As with all websites most of the work goes into the initial development. In that area &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; are fairly equal, I would even say &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is a bit simpler.&lt;/p&gt;
 
 &lt;p&gt;Beyond all the technical &lt;em&gt;crap&lt;/em&gt; the bottom line is once the site is built the &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; site is far simpler. There are no plugins to update. There isn’t a &lt;strong&gt;CMS&lt;/strong&gt; to keep up to date. You do not have to deal with an updated plugin that conflicts with the &lt;strong&gt;CMS&lt;/strong&gt;, or another plugin. Or my favorite head ache, the unsupported plugin. Unsupported plugins can send you scrambling for a replacement, they can also be a &lt;strong&gt;huge security risk&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-is-safer&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Safer&lt;/h2&gt;
+&lt;h2 id=&quot;jekyll-is-safer&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; is Safer&lt;/h2&gt;
 &lt;p&gt;I don’t want to get overly technical here, but there are &lt;strong&gt;3&lt;/strong&gt; main reasons why &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is not very secure. The first is because it uses server-side scripts, in the &lt;strong&gt;PHP&lt;/strong&gt; language. These use whats called URL parameters to control the database (&lt;em&gt;MySQL&lt;/em&gt;). Hackers can use whats called a &lt;strong&gt;SQL injection attacks&lt;/strong&gt; to get sensitive database information. Once they have that they can hijack the site and change or replace your content.&lt;/p&gt;
 
 &lt;p&gt;The second reason &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is not secure has to do with themes and plugins. You can get free themes or paid themes, same with plugins. Sometimes these themes or plugins have errors that leave a security hole in your website. Because they are easy to get and install most people will have no idea there is a security problem, the developer might not even know it. Because of the massive number of people using &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; it has become fertile ground for &lt;em&gt;unscrupulous&lt;/em&gt; developers to add malware into their themes and plugins.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-main-problem-with-wordpresshttpswordpresscom-wordpress-is-a-website-cms-is-you&quot;&gt;The main problem with &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is You!&lt;/h2&gt;
+&lt;h2 id=&quot;the-main-problem-with-wordpress-is-you&quot;&gt;The main problem with &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is You!&lt;/h2&gt;
 &lt;p&gt;The last reason I think &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is not secure is &lt;strong&gt;you&lt;/strong&gt;! And to be fare, me as well. We are human and busy humans at that. It is natural for us to let things get a bit out of date, fall behind, not keep on top of things. This can be a huge problem when dealing with &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. Failing to keep &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; up-to-date can leave you vulnerable to attacks.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://danaleegibson.com/images/life-gets-in-the-way-of-wordpress.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
-    &lt;img src=&quot;http://danaleegibson.com/images/life-gets-in-the-way-of-wordpress.jpg&quot; alt=&quot;Life is too busy for WordPress&quot; width=&quot;960px&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/life-gets-in-the-way-of-wordpress.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/life-gets-in-the-way-of-wordpress.jpg&quot; alt=&quot;Life is too busy for WordPress&quot; width=&quot;960px&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This goes back to the simplicity problem. Many people don’t like updating &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; or plugins simply because it can cause problems. More times than I’d like to remember my day, or entire weekend, has been ruined by simply updating &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. I’ve done more than a few plugin updates that resulted in the dreaded &lt;strong&gt;White Screen of Death&lt;/strong&gt;. For this reason I only do updates when I know I have a block of time that can be dedicated to fixing any possible problems.&lt;/p&gt;
@@ -84,14 +81,14 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;Any updates or changes doen to a Jekyll site are always done on a development machine (&lt;em&gt;your home PC&lt;/em&gt;) first and not the web server. This allows you to work out any problems before they go live. Sure you could create a local version of your &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; site, but for the average person that is beyond their technical abilities.&lt;/p&gt;
 
-&lt;h2 id=&quot;jekyllhttpsjekyllrbcom-jekyll-is-a-static-website-builder-keeps-me-sharp&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; Keeps Me Sharp&lt;/h2&gt;
+&lt;h2 id=&quot;jekyll-keeps-me-sharp&quot;&gt;&lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; Keeps Me Sharp&lt;/h2&gt;
 &lt;p&gt;This reason for using &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; over &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is very personal and may not apply to everyone. I like doing things manually, I find pleasure in knowing the inner workings of things. I feel I am a better “&lt;em&gt;technologist&lt;/em&gt;” if I keep my hand in things. &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; is fine if you prefer a point and click experience.&lt;/p&gt;
 
 &lt;p&gt;I bounce around a lot between graphic design, magazine and book publishing, database management, and server management. Because of this I enjoy the break from my daily grind by getting down and dirty with the command line.&lt;/p&gt;
 
 &lt;p&gt;The reason I transitioned away from print, beyond it dying, and into the web was because I enjoyed the feeling of using code to create things that look good and actually do things. &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; removed a large part of that for me. I found myself spending a lot of time just maintaining the CMS and doing updates.&lt;/p&gt;
 
-&lt;p&gt;There it is, my &lt;strong&gt;4&lt;/strong&gt; reasons for using &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; over &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. Oh, wait there is one more, &lt;strong&gt;money&lt;/strong&gt;, and &lt;strong&gt;control&lt;/strong&gt;, okay that is really two more. Clients can run and change a &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; site without me. Thats not good for my bottom line. A &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; site I build for a client will run better, faster, more securely, and the client (&lt;em&gt;most times&lt;/em&gt;) has to come to me to make changes and/or additions. It is a Win-Win for everyone.&lt;/p&gt;</content><category term="jekyll" /><category term="wordpress" /><summary>Yes! this is a Jekyll driven static website. I switched to Jekyll, but why? There are 3 main reasons I did this. Well 4 reasons really. But the forth reason might not apply to the average person or blogger.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.com3-reasons-to-switch-from-wordpress-to-jekyll.jpg" /></entry><entry><title>Is a Zippo Tech or Art?</title><link href="http://danaleegibson.com/is-a-zippo-tech-or-art/" rel="alternate" type="text/html" title="Is a Zippo Tech or Art?" /><published>2017-01-05T00:00:00-05:00</published><updated>2017-01-05T00:00:00-05:00</updated><id>http://danaleegibson.com/is-a-zippo-tech-or-art</id><content type="html" xml:base="http://danaleegibson.com/is-a-zippo-tech-or-art/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/is-zippo-tech-and-art.jpg&quot; alt=&quot;Zippo Lighter is Art &amp;amp; Technology&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;There it is, my &lt;strong&gt;4&lt;/strong&gt; reasons for using &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; over &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt;. Oh, wait there is one more, &lt;strong&gt;money&lt;/strong&gt;, and &lt;strong&gt;control&lt;/strong&gt;, okay that is really two more. Clients can run and change a &lt;a href=&quot;https://wordpress.com&quot; title=&quot;WordPress is a Website CMS&quot;&gt;WordPress&lt;/a&gt; site without me. Thats not good for my bottom line. A &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll is a Static Website Builder&quot;&gt;Jekyll&lt;/a&gt; site I build for a client will run better, faster, more securely, and the client (&lt;em&gt;most times&lt;/em&gt;) has to come to me to make changes and/or additions. It is a Win-Win for everyone.&lt;/p&gt;</content><category term="jekyll" /><category term="wordpress" /><summary>Yes! this is a Jekyll driven static website. I switched to Jekyll, but why? There are 3 main reasons I did this. Well 4 reasons really. But the forth reason might not apply to the average person or blogger.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:40003-reasons-to-switch-from-wordpress-to-jekyll.jpg" /></entry><entry><title>Is a Zippo Tech or Art?</title><link href="http://localhost:4000/is-a-zippo-tech-or-art/" rel="alternate" type="text/html" title="Is a Zippo Tech or Art?" /><published>2017-01-05T00:00:00-05:00</published><updated>2017-01-05T00:00:00-05:00</updated><id>http://localhost:4000/is-a-zippo-tech-or-art</id><content type="html" xml:base="http://localhost:4000/is-a-zippo-tech-or-art/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/is-zippo-tech-and-art.jpg&quot; alt=&quot;Zippo Lighter is Art &amp;amp; Technology&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Can a lighter be considered art or even technology? Why do I like the &lt;a href=&quot;http://www.zippo.com&quot;&gt;Zippo lighter&lt;/a&gt;? Does the drawbacks of a Zippo make it a better lighter?&lt;!--more--&gt;&lt;/p&gt;
 
@@ -105,14 +102,14 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;It goes beyond just art and experience. It is almost timeless. Every part of the Zippo lighter can be replaced. It can be passed down from generation to generation and still remain functional.&lt;/p&gt;
 
-&lt;h2 id=&quot;i-like-to-think-of-it-as-the-lighter-of-theseushttpsenwikipediaorgwikishipoftheseus&quot;&gt;I like to think of it as &lt;a href=&quot;https://en.wikipedia.org/wiki/Ship_of_Theseus&quot;&gt;The Lighter of Theseus&lt;/a&gt;.&lt;/h2&gt;
+&lt;h2 id=&quot;i-like-to-think-of-it-as-the-lighter-of-theseus&quot;&gt;I like to think of it as &lt;a href=&quot;https://en.wikipedia.org/wiki/Ship_of_Theseus&quot;&gt;The Lighter of Theseus&lt;/a&gt;.&lt;/h2&gt;
 
 &lt;p&gt;Because of all of these attributes the Zippo Lighter is more than just a lighter to me. Its a tool, an object of art, and a touch-stone to the past.&lt;/p&gt;
 
 &lt;p&gt;I have two myself, even though I don’t smoke. Along with a good knife having a working lighter is a must have.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://danaleegibson.com/images/my-zippo-lighters.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
-    &lt;img src=&quot;http://danaleegibson.com/images/my-zippo-lighters.jpg&quot; alt=&quot;My Two Zippo Lighters&quot; width=&quot;960px&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/my-zippo-lighters.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/my-zippo-lighters.jpg&quot; alt=&quot;My Two Zippo Lighters&quot; width=&quot;960px&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;It is true that a &lt;a href=&quot;http://www.zippo.com&quot;&gt;Zippo&lt;/a&gt; will run out of fuel after 2 weeks, sometimes maybe 3. This is because the lighter fuel will evaporate.&lt;/p&gt;
@@ -125,21 +122,21 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;This idea is carried over to my preference of &lt;a href=&quot;https://linuxmint.com&quot;&gt;Linux&lt;/a&gt; over &lt;strong&gt;Mac&lt;/strong&gt; or &lt;strong&gt;PC&lt;/strong&gt;. I like working on a computer. Some people just want it to be an appliance. I prefer to get my hands dirty from time to time.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://danaleegibson.com/images/zippo-lighters-outback.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
-    &lt;img src=&quot;http://danaleegibson.com/images/zippo-lighters-outback.jpg&quot; alt=&quot;Two Zippo Lighters in my back yard&quot; width=&quot;960px&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/zippo-lighters-outback.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/zippo-lighters-outback.jpg&quot; alt=&quot;Two Zippo Lighters in my back yard&quot; width=&quot;960px&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Putting effort into keeping your computer or your lighter in proper working order is good for you, and your soul.&lt;/p&gt;</content><category term="story" /><category term="linux" /><summary>Can a lighter be considered art or even technology? Why do I like the Zippo lighter? Does the drawbacks of a Zippo make it a better lighter?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comis-zippo-tech-and-art.jpg" /></entry><entry><title>Too Old to Use It</title><link href="http://danaleegibson.com/too-old-to-use-it/" rel="alternate" type="text/html" title="Too Old to Use It" /><published>2016-12-28T00:00:00-05:00</published><updated>2016-12-28T00:00:00-05:00</updated><id>http://danaleegibson.com/too-old-to-use-it</id><content type="html" xml:base="http://danaleegibson.com/too-old-to-use-it/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/too-old-to-use-it.jpg&quot; alt=&quot;Too old to use it&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Putting effort into keeping your computer or your lighter in proper working order is good for you, and your soul.&lt;/p&gt;</content><category term="story" /><category term="linux" /><summary>Can a lighter be considered art or even technology? Why do I like the Zippo lighter? Does the drawbacks of a Zippo make it a better lighter?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000is-zippo-tech-and-art.jpg" /></entry><entry><title>Too Old to Use It</title><link href="http://localhost:4000/too-old-to-use-it/" rel="alternate" type="text/html" title="Too Old to Use It" /><published>2016-12-28T00:00:00-05:00</published><updated>2016-12-28T00:00:00-05:00</updated><id>http://localhost:4000/too-old-to-use-it</id><content type="html" xml:base="http://localhost:4000/too-old-to-use-it/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/too-old-to-use-it.jpg&quot; alt=&quot;Too old to use it&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;It is sad because even today it boots quickly and runs smoothly, but is so out of date it is next to useless. This was the first Mac I ever purchased. In today’s dollars I paid about &lt;strong&gt;$2100&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/power-mac-g5.jpg&quot; alt=&quot;Apple Poer Mac G5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/power-mac-g5.jpg&quot; alt=&quot;Apple Poer Mac G5&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It was not a top of the line unit, however over the years I added more RAM, a new video card, more hard drives, and a WiFi card. The ability to do these upgrades kept this Mac as a daily driver until 2011. Seven years is a long time, in computer years. You can’t upgrade a modern Mac like that anymore.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/images/leopard-apple-g5.jpg&quot; alt=&quot;Apple OX 01.5 Leopard&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/leopard-apple-g5.jpg&quot; alt=&quot;Apple OX 01.5 Leopard&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This machine was a daily driver. It allowed me to make extra money by doing side jobs on it. Upgrading it was a great way to learn with the added benefit of making it better, faster, and more versatile.&lt;/p&gt;
 
@@ -147,7 +144,7 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;A few times a year I plug it in and lament over how well she runs. Then, I put her back in cold-storage.&lt;/p&gt;
 
-&lt;p&gt;It seems wrong to throw away (&lt;em&gt;or recycle&lt;/em&gt;) something that works so well. Even if it is kind of useless.&lt;/p&gt;</content><category term="story" /><category term="mac" /><category term="apple" /><summary>Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comtoo-old-to-use-it.jpg" /></entry><entry><title>Data is an Echo of You</title><link href="http://danaleegibson.com/data-is-an-echo-of-you/" rel="alternate" type="text/html" title="Data is an Echo of You" /><published>2016-12-16T02:57:32-05:00</published><updated>2016-12-16T02:57:32-05:00</updated><id>http://danaleegibson.com/data-is-an-echo-of-you</id><content type="html" xml:base="http://danaleegibson.com/data-is-an-echo-of-you/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/data-is-an-echo-of-you.jpg&quot; alt=&quot;Data is an Echo of You&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It seems wrong to throw away (&lt;em&gt;or recycle&lt;/em&gt;) something that works so well. Even if it is kind of useless.&lt;/p&gt;</content><category term="story" /><category term="mac" /><category term="apple" /><summary>Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000too-old-to-use-it.jpg" /></entry><entry><title>Data is an Echo of You</title><link href="http://localhost:4000/data-is-an-echo-of-you/" rel="alternate" type="text/html" title="Data is an Echo of You" /><published>2016-12-16T02:57:32-05:00</published><updated>2016-12-16T02:57:32-05:00</updated><id>http://localhost:4000/data-is-an-echo-of-you</id><content type="html" xml:base="http://localhost:4000/data-is-an-echo-of-you/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/data-is-an-echo-of-you.jpg&quot; alt=&quot;Data is an Echo of You&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?&lt;!--more--&gt;&lt;/p&gt;
 
@@ -159,11 +156,11 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;I used an application called &lt;a href=&quot;https://eggerapps.at/mdbviewer/&quot;&gt;MDB ACCDB Viewer&lt;/a&gt;, available through the &lt;strong&gt;Apple App Store&lt;/strong&gt; for &lt;strong&gt;$19&lt;/strong&gt;. This gave me easy access to the Access database’s tables. I then exported the tables I needed in CSV format.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/filemaker-edit-layout.jpg&quot; alt=&quot;FileMaker edit layout mode&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/filemaker-edit-layout.jpg&quot; alt=&quot;FileMaker edit layout mode&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;From there I used FileMaker to recreate the database, at least the parts I needed. Linking the tables and building the layouts and the scripts was nothing special. I did have a bit of a struggle with a printing script, but thats a story for another time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/table-relationships.jpg&quot; alt=&quot;FileMaker table relation graph&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/table-relationships.jpg&quot; alt=&quot;FileMaker table relation graph&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Once the &lt;a href=&quot;http://www.filemaker.com&quot;&gt;Filemaker database&lt;/a&gt; was finished I had to test it. I did all kinds of searching and filtering of the data. I had to return to the old data a few times to grab some more tables to make the new system a bit more flushed out.&lt;/p&gt;
 
@@ -197,7 +194,7 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;I hope that if someone in the future is struggling with something I have worked on, or with, that they can feel my desire to do it correctly. It would be nice if they could tell I liked what I did, and I tried to do it with care.&lt;/p&gt;
 
-&lt;p&gt;Or maybe this was all in my head. Maybe it is just a database, a collection of numbers and letters in little boxes that can’t record anything about its user. But, I hope not.&lt;/p&gt;</content><summary>How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comdata-is-an-echo-of-you.jpg" /></entry><entry><title>Migrating from WordPress to Jekyll</title><link href="http://danaleegibson.com/migrate-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="Migrating from WordPress to Jekyll" /><published>2016-09-23T02:57:32-04:00</published><updated>2016-09-23T02:57:32-04:00</updated><id>http://danaleegibson.com/migrate-from-wordpress-to-jekyll</id><content type="html" xml:base="http://danaleegibson.com/migrate-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/migrate-from-wordpress-to-jekyll.jpg&quot; alt=&quot;moving from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or maybe this was all in my head. Maybe it is just a database, a collection of numbers and letters in little boxes that can’t record anything about its user. But, I hope not.&lt;/p&gt;</content><summary>How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000data-is-an-echo-of-you.jpg" /></entry><entry><title>Migrating from WordPress to Jekyll</title><link href="http://localhost:4000/migrate-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="Migrating from WordPress to Jekyll" /><published>2016-09-23T02:57:32-04:00</published><updated>2016-09-23T02:57:32-04:00</updated><id>http://localhost:4000/migrate-from-wordpress-to-jekyll</id><content type="html" xml:base="http://localhost:4000/migrate-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/migrate-from-wordpress-to-jekyll.jpg&quot; alt=&quot;moving from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So, you want to migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; to &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -205,34 +202,34 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;I wish it was that simple. I use &lt;a href=&quot;http://godaddy.com&quot;&gt;GoDaddy&lt;/a&gt; for hosting and they have cPanel which is good. Log into whatever control panel you have, go to the &lt;strong&gt;phpMyAdmin&lt;/strong&gt;. When in &lt;strong&gt;phpMyAdmin&lt;/strong&gt; find your database, click on it and click the “&lt;em&gt;Export&lt;/em&gt;” tab.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/cPanel-and-phpMyAdmin.jpg&quot; alt=&quot;cPanel in phpMyAdmin&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/cPanel-and-phpMyAdmin.jpg&quot; alt=&quot;cPanel in phpMyAdmin&quot; /&gt;
 &lt;em&gt;cPanel locate phpMyAmin&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The Export screen is super simple. Just leave all the settings alone and click the Go button. It will download the database as an SQL file.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/export-your-wordpress-database.jpg&quot; alt=&quot;Export your data&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/export-your-wordpress-database.jpg&quot; alt=&quot;Export your data&quot; /&gt;
 &lt;em&gt;Export your data&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;You should install &lt;a href=&quot;https://mamp.info&quot;&gt;MAMP&lt;/a&gt;, it will run on a Windows, Linux or Mac system, I use a Mac. Once &lt;a href=&quot;https://mamp.info&quot;&gt;MAMP&lt;/a&gt; is installed and running, you want to go to phpMyAdmin and create a database. Once it is created, click the “Import” tab. Click the “&lt;strong&gt;Choose File&lt;/strong&gt;” button then navigate to the SQL file you downloaded from you hosting account.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/create-a-new-database.jpg&quot; alt=&quot;create a database in phpmyadmimn&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/create-a-new-database.jpg&quot; alt=&quot;create a database in phpmyadmimn&quot; /&gt;
 &lt;em&gt;Create a Database&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/import-wordpress-data.jpg&quot; alt=&quot;import the wordpress data&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/import-wordpress-data.jpg&quot; alt=&quot;import the wordpress data&quot; /&gt;
 &lt;em&gt;Import the WordPress data&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;migrate-from-wordpress--now-for-jekyll&quot;&gt;Migrate from WordPress – Now for Jekyll&lt;/h2&gt;
 &lt;p&gt;I am assuming you have &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; installed and you have created a new &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; project. After that is done you should have a folder that looks something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/default-jekyll-project-folder.jpg&quot; alt=&quot;default Jekyll folder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/default-jekyll-project-folder.jpg&quot; alt=&quot;default Jekyll folder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The default Jekyll website looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/default-jekyl-website.jpg&quot; alt=&quot;Migrating from WordPress - Jekyll default website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/default-jekyl-website.jpg&quot; alt=&quot;Migrating from WordPress - Jekyll default website&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The default theme that &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; uses (at the time this was written) is called Minima. I found it helpful to &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;download the Minima theme&lt;/a&gt; so you have the default files to deal with.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/minima-folder-files.jpg&quot; alt=&quot;minima-folder-files&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/minima-folder-files.jpg&quot; alt=&quot;minima-folder-files&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now it is time to import the data from your local &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; database. This can be tricky and you can run into some problems. I have done this before without any issues. Then when I try and do it a week later I have nothing but issues. It is important to stay calm and work the problem and not get frustrated.&lt;/p&gt;
 
@@ -244,7 +241,7 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;unidecode&quot;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/gemfile-and-added-gems.jpg&quot; alt=&quot;migrating from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/gemfile-and-added-gems.jpg&quot; alt=&quot;migrating from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I also ran into a problem with the &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; import. I had to install it using this:&lt;/p&gt;
 
@@ -260,7 +257,7 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 /Applications/MAMP/tmp/mysql/mysql.sock
 The import code you enter in the command line is posted on the Jekyll website in the migration section. Below is what I used, remember you will need to put in your own database name, user, and password. This is the code I used:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby -rubygems -e &#39;require &quot;jekyll-import&quot;;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby -rubygems -e 'require &quot;jekyll-import&quot;;
     JekyllImport::Importers::WordPress.run({
       &quot;dbname&quot;   =&amp;gt; &quot;group-1&quot;,
       &quot;user&quot;     =&amp;gt; &quot;root&quot;,
@@ -277,19 +274,18 @@ The import code you enter in the command line is posted on the Jekyll website in
       &quot;more_anchor&quot;    =&amp;gt; true,
       &quot;extension&quot;      =&amp;gt; &quot;html&quot;,
       &quot;status&quot;         =&amp;gt; [&quot;publish&quot;]
-    })&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;### Migration is not 100% Perfect
-Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; it will go smoothly. I said before, if you get errors work them. Copy and paste them in Google, read what other people did to fix the issues. It is not that difficult to figure out, I did and so can you.&lt;/p&gt;
+    })'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;migration-is-not-100-perfect&quot;&gt;Migration is not 100% Perfect&lt;/h3&gt;
+&lt;p&gt;Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; it will go smoothly. I said before, if you get errors work them. Copy and paste them in Google, read what other people did to fix the issues. It is not that difficult to figure out, I did and so can you.&lt;/p&gt;
 
 &lt;p&gt;The result will be a horrible looking website. But that is what you get when you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt;. This is what my site looked like after the migration.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/website-after-wordpress-migration.jpg&quot; alt=&quot;migrate from WordPress website-after-wordpress-migration&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/website-after-wordpress-migration.jpg&quot; alt=&quot;migrate from WordPress website-after-wordpress-migration&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This does require a lot of clean-up and moving of images. But it does a lot of the heavy lifting up front. It might look messy but it gives you a jumping off point. You now have all the content from your &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; site in &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I just want to remind people that I am still learning. I do not know all the tricks. I am just putting this out there for people like me. I believe that it is important to share your knowledge and help other people. Everyday in my journey of learning I am thankful for the countless people out there that are willing to share what they know. I hope this helps someone.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>So, you want to migrate from WordPress to Jekyll. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.commigrate-from-wordpress-to-jekyll.jpg" /></entry><entry><title>To Jekyll or Not</title><link href="http://danaleegibson.com/jekyll-not-jekyll-static-site/" rel="alternate" type="text/html" title="To Jekyll or Not" /><published>2016-09-16T18:45:41-04:00</published><updated>2016-09-16T18:45:41-04:00</updated><id>http://danaleegibson.com/jekyll-not-jekyll-static-site</id><content type="html" xml:base="http://danaleegibson.com/jekyll-not-jekyll-static-site/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/to-jekyll-or-not-static-site.jpg&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I just want to remind people that I am still learning. I do not know all the tricks. I am just putting this out there for people like me. I believe that it is important to share your knowledge and help other people. Everyday in my journey of learning I am thankful for the countless people out there that are willing to share what they know. I hope this helps someone.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>So, you want to migrate from WordPress to Jekyll. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000migrate-from-wordpress-to-jekyll.jpg" /></entry><entry><title>To Jekyll or Not</title><link href="http://localhost:4000/jekyll-not-jekyll-static-site/" rel="alternate" type="text/html" title="To Jekyll or Not" /><published>2016-09-16T18:45:41-04:00</published><updated>2016-09-16T18:45:41-04:00</updated><id>http://localhost:4000/jekyll-not-jekyll-static-site</id><content type="html" xml:base="http://localhost:4000/jekyll-not-jekyll-static-site/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/to-jekyll-or-not-static-site.jpg&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -305,7 +301,7 @@ Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;Wor
 
 &lt;p&gt;Then there is security. To keep the site current and safe from exploits takes a lot of man hours. You can not let you WordPress site sit. The site and the plugins must be kept updated. Remember the &lt;a href=&quot;https://www.wordfence.com/blog/2016/04/panama-papers-wordpress-email-connection/&quot;&gt;Panama Pagers information leak&lt;/a&gt;? That all started with an out of date version of WordPress.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/panama-papers-leak.jpg&quot; alt=&quot;Panama Papers&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/panama-papers-leak.jpg&quot; alt=&quot;Panama Papers&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It is not uncommon for people to expect to be able to maintain the CMS themselves. This notion quickly fades as other demands keep people from learning all the ins-and-outs. Consequently they never pick up the skills needed and end up paying someone else to keep things current and secure.&lt;/p&gt;
 
@@ -329,7 +325,7 @@ Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;Wor
 
 &lt;p&gt;It comes down to having a realistic view of what your website will do. Once you realize your website is not going to be as fancy as &lt;a href=&quot;https://www.tesla.com&quot;&gt;Tesla’s&lt;/a&gt; or Facebook. You may come to the conclusion that a static site might be the right fit for you. A static site is also very flexible and expandable which makes it a great choice if you are starting a new site.&lt;/p&gt;
 
-&lt;p&gt;Should you Jekyll? I would bet a lot of sites would benefit greatly from switching to a static format. I also believe you will see more and more static sites in the future. We are coming around full circle. A modern static site is a far cry from the very first website. But in spirit, it has a connection to the very beginning of the web.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comto-jekyll-or-not-static-site.jpg" /></entry><entry><title>How Long Can it Go On!</title><link href="http://danaleegibson.com/long-can-go/" rel="alternate" type="text/html" title="How Long Can it Go On!" /><published>2016-09-06T18:45:41-04:00</published><updated>2016-09-06T18:45:41-04:00</updated><id>http://danaleegibson.com/how-log-can-this-go-on</id><content type="html" xml:base="http://danaleegibson.com/long-can-go/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/how-long-can-this-go-on.jpg&quot; alt=&quot;how long&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Should you Jekyll? I would bet a lot of sites would benefit greatly from switching to a static format. I also believe you will see more and more static sites in the future. We are coming around full circle. A modern static site is a far cry from the very first website. But in spirit, it has a connection to the very beginning of the web.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000to-jekyll-or-not-static-site.jpg" /></entry><entry><title>How Long Can it Go On!</title><link href="http://localhost:4000/long-can-go/" rel="alternate" type="text/html" title="How Long Can it Go On!" /><published>2016-09-06T18:45:41-04:00</published><updated>2016-09-06T18:45:41-04:00</updated><id>http://localhost:4000/how-log-can-this-go-on</id><content type="html" xml:base="http://localhost:4000/long-can-go/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/how-long-can-this-go-on.jpg&quot; alt=&quot;how long&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It was 1988, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ronald_Reagan&quot;&gt;Ronald Regan &lt;/a&gt;was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -361,19 +357,19 @@ Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;Wor
 
 &lt;p&gt;As usual we hit Google and YouTube hard looking for advice and troubleshooting tutorials. We decided to take the washer apart and see if a $10 part had broken or if it was a more serious problem. Moving it was not pleasant, it apparently still had a good amount of water in it. Most likely from us squeezing out the wet clothes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/on-the-operating-table.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/on-the-operating-table.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We got the old girl up on the kitchen table and looked up her bottom end. We pulled her guts out and examined all her parts. Everything was absolutely disgusting but totally intact. We could find no problems. We had no choice but to clean her up the best we could and put her back together.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/guts-taken-out.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/guts-taken-out.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We have run 3 loads through her so far. All seems well. As a matter of fact she fills with water like never before. It helps to clean the water intake screens once in a while. We are optimistic for the future, we had no idea how backwards and helpless one feels without a clothes washer in the house.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/what-a-mess.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-a-mess.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So that is the story about how a near death experience, resulting in excruciatingly painful burns and scarring brought me together with the best, and only  washer / dryer combo I have ever had. I got them when I was a young man of 23. They have washed my clothes every week since then. I am now an old man of 51. I have been married twice, and even though my current wife, Ester, is my heart and soul, my longest, most steady and fulfilling relationship has been with my washer &amp;amp; dryer.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/all-cleaned-up.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;</content><category term="story" /><summary>It was 1988, Ronald Regan was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comhow-long-can-this-go-on.jpg" /></entry><entry><title>Reset the Permalinks using MySQL</title><link href="http://danaleegibson.com/reset-permalinks-using-mysql/" rel="alternate" type="text/html" title="Reset the Permalinks using MySQL" /><published>2016-04-20T18:45:41-04:00</published><updated>2016-04-20T18:45:41-04:00</updated><id>http://danaleegibson.com/reset-permalinks-using-mysql</id><content type="html" xml:base="http://danaleegibson.com/reset-permalinks-using-mysql/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/reset-permalinks-using-mysql.jpg&quot; alt=&quot;permalikns and how to reset them&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/all-cleaned-up.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;</content><category term="story" /><summary>It was 1988, Ronald Regan was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000how-long-can-this-go-on.jpg" /></entry><entry><title>Reset the Permalinks using MySQL</title><link href="http://localhost:4000/reset-permalinks-using-mysql/" rel="alternate" type="text/html" title="Reset the Permalinks using MySQL" /><published>2016-04-20T18:45:41-04:00</published><updated>2016-04-20T18:45:41-04:00</updated><id>http://localhost:4000/reset-permalinks-using-mysql</id><content type="html" xml:base="http://localhost:4000/reset-permalinks-using-mysql/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/reset-permalinks-using-mysql.jpg&quot; alt=&quot;permalikns and how to reset them&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -385,14 +381,14 @@ Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;Wor
 
 &lt;p&gt;If you have more than one WordPress website on your hosting account you’ll need to know the name of your database. You can find that by either using the File Manager in cPanel or a FTP client and getting a look at your WordPress files.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/the-wp-confog-file.jpg&quot; alt=&quot;WordPress config file&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/the-wp-confog-file.jpg&quot; alt=&quot;WordPress config file&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You need to open a file called “&lt;strong&gt;wp-config.php&lt;/strong&gt;” with any text editor. You are looking for the line that says &lt;strong&gt;/&lt;/strong&gt; The name of the database for WordPress */** right under that will be the name of the database. In this example the database name is &lt;strong&gt;danapress&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/wp-config-textmate.jpg&quot; alt=&quot;TextMate&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/wp-config-textmate.jpg&quot; alt=&quot;TextMate&quot; /&gt;
 Then go to your cPanel, look for the Databases section and click on the “&lt;strong&gt;phpMyAdmin&lt;/strong&gt;” icon.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/cPanel-databases.jpg&quot; alt=&quot;cPanel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/cPanel-databases.jpg&quot; alt=&quot;cPanel&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the left column, look for the name of your database. Expand it and look for the table called “&lt;strong&gt;wp-options&lt;/strong&gt;”. In that table you are looking for the “option_name” of “&lt;strong&gt;siteurl&lt;/strong&gt;” and “&lt;strong&gt;home&lt;/strong&gt;”. Buy editing these two rows in this table you can fix the Permalinks.&lt;/p&gt;
 
@@ -400,7 +396,7 @@ Then go to your cPanel, look for the Databases section and click on the “&lt;s
 
 &lt;p&gt;In this example the sub folder is called “&lt;strong&gt;wp&lt;/strong&gt;”. Once that is removed and the &lt;strong&gt;siteurl&lt;/strong&gt; and the &lt;strong&gt;home&lt;/strong&gt; match, the site should work properly again.
 You should now be able to log into the admin side. I would suggest you then reset your Permalinks from there, just in case.
-As always when working within the database be &lt;strong&gt;VERY CAREFUL&lt;/strong&gt;. Having said that, it is very simple and straightforward to edit the database.&lt;/p&gt;</content><category term="help" /><category term="mysql" /><category term="wordpress" /><summary>What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comreset-permalinks-using-mysql.jpg" /></entry><entry><title>Vintage, what does that mean?</title><link href="http://danaleegibson.com/vintage-what-does-that-mean/" rel="alternate" type="text/html" title="Vintage, what does that mean?" /><published>2016-01-04T17:45:41-05:00</published><updated>2016-01-04T17:45:41-05:00</updated><id>http://danaleegibson.com/vintage-what-does-that-mean</id><content type="html" xml:base="http://danaleegibson.com/vintage-what-does-that-mean/">&lt;p&gt;&lt;img src=&quot;http://danaleegibson.com/assets/images/obsolete-mac-mini-maybe.jpg&quot; alt=&quot;Apple makes thigs vintage&quot; /&gt;&lt;/p&gt;
+As always when working within the database be &lt;strong&gt;VERY CAREFUL&lt;/strong&gt;. Having said that, it is very simple and straightforward to edit the database.&lt;/p&gt;</content><category term="help" /><category term="mysql" /><category term="wordpress" /><summary>What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000reset-permalinks-using-mysql.jpg" /></entry><entry><title>Vintage, what does that mean?</title><link href="http://localhost:4000/vintage-what-does-that-mean/" rel="alternate" type="text/html" title="Vintage, what does that mean?" /><published>2016-01-04T17:45:41-05:00</published><updated>2016-01-04T17:45:41-05:00</updated><id>http://localhost:4000/vintage-what-does-that-mean</id><content type="html" xml:base="http://localhost:4000/vintage-what-does-that-mean/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/obsolete-mac-mini-maybe.jpg&quot; alt=&quot;Apple makes thigs vintage&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is not an attack!! It is a warning! We now live in a time when something that is 5 years old is called “&lt;strong&gt;vintage&lt;/strong&gt;”. And if your computer is 7 or more years old, you and it are obsolete.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -420,4 +416,4 @@ As always when working within the database be &lt;strong&gt;VERY CAREFUL&lt;/str
 
 &lt;p&gt;Apple makes an amazing product, that is not the issue. The issue is the philosophy of what is vintage or obsolete. I have a Mac G5 Pro that is 10 years old and it runs great! But according to Apple it is obsolete. It might just be simple verbiage they use, but words matter, words have meaning. They can be used to build a mind set.&lt;/p&gt;
 
-&lt;p&gt;It was not that long ago that we, as American consumers valued durability and longevity in what we purchased. I fear we have been swayed by powerful forces to value the latest, the newest, the shiny sparkly things the most. We do this at our own peril.&lt;/p&gt;</content><category term="apple" /><summary>This is not an attack!! It is a warning! We now live in a time when something that is 5 years old is called “vintage”. And if your computer is 7 or more years old, you and it are obsolete.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://danaleegibson.comobsolete-mac-mini-maybe.jpg" /></entry></feed>
+&lt;p&gt;It was not that long ago that we, as American consumers valued durability and longevity in what we purchased. I fear we have been swayed by powerful forces to value the latest, the newest, the shiny sparkly things the most. We do this at our own peril.&lt;/p&gt;</content><category term="apple" /><summary>This is not an attack!! It is a warning! We now live in a time when something that is 5 years old is called “vintage”. And if your computer is 7 or more years old, you and it are obsolete.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000obsolete-mac-mini-maybe.jpg" /></entry></feed>
