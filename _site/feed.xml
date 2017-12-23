@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-16T23:30:45-05:00</updated><id>http://localhost:4000/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>Why You Need A SSL Certificate</title><link href="http://localhost:4000/why-you-need-a-ssl-certificate/" rel="alternate" type="text/html" title="Why You Need A SSL Certificate" /><published>2017-12-16T00:00:00-05:00</published><updated>2017-12-16T00:00:00-05:00</updated><id>http://localhost:4000/why-you-need-a-ssl-certificate</id><content type="html" xml:base="http://localhost:4000/why-you-need-a-ssl-certificate/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/ssl-certificates-are-the-future.jpg&quot; alt=&quot;SSL Certificate are not as safe as we are told they are.&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-23T18:48:49-05:00</updated><id>http://localhost:4000/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>Too Much Choice?!</title><link href="http://localhost:4000/there-is-too-much-choice/" rel="alternate" type="text/html" title="Too Much Choice?!" /><published>2017-12-23T00:00:00-05:00</published><updated>2017-12-23T00:00:00-05:00</updated><id>http://localhost:4000/there-is-too-much-choice</id><content type="html" xml:base="http://localhost:4000/there-is-too-much-choice/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/too-much-choice.jpg&quot; alt=&quot;Too much choice can led to sadness and buyer's remorse.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I get asked all the time to be the arbiter of technology. People get overwhelmed with the volume of choices out there. And while choice and variety is good, it can sometimes be too much. After all, there is such a thing as too much of a good thing.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;name-that-tune&quot;&gt;Name That Tune!&lt;/h2&gt;
+
+&lt;p&gt;Lets look at guitars. There are all sorts of guitars made for all sorts of music. But even if you stick to one style of music and one manufacture you are still faced with a mind numbing selection. Fender, an American institution since &lt;strong&gt;1950&lt;/strong&gt;, are also an ocean of choices.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/fender-stratocaster-choice.jpg&quot; alt=&quot;Want a Fender Stratocaster? There are lots to choose from.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You want a &lt;a href=&quot;https://www.fender.com&quot;&gt;Fender Stratocaster&lt;/a&gt;, but do you want an &lt;strong&gt;American&lt;/strong&gt; Stratocaster? It is made in the good-old &lt;strong&gt;US&lt;/strong&gt; &lt;em&gt;of&lt;/em&gt; &lt;strong&gt;A&lt;/strong&gt; and starts around &lt;strong&gt;$1200&lt;/strong&gt;. Or do you want a &lt;strong&gt;Mexican&lt;/strong&gt; Stratocaster, made in, you guessed it, Mexico. They start around &lt;strong&gt;$600&lt;/strong&gt;. Or do you want a Fender &lt;strong&gt;Squire&lt;/strong&gt; Stratocaster, which are made in Indonesia? Those start around &lt;strong&gt;$200&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It doesn’t end there. Within each model based on area of manufacture there are different series and options to choose from. The rabbit hole goes far and deep!&lt;/p&gt;
+
+&lt;p&gt;Those are &lt;strong&gt;ALL&lt;/strong&gt; &lt;a href=&quot;https://www.fender.com&quot;&gt;Fender Stratocasters&lt;/a&gt;, they all look very similar, but are they the same? Sure, a &lt;strong&gt;$200&lt;/strong&gt; guitar is going to be different from a &lt;strong&gt;$1200&lt;/strong&gt; guitar. The problem isn’t that they are different, the problem is you will never be happy with your purchase.&lt;/p&gt;
+
+&lt;h2 id=&quot;always-leaping-never-happy-where-you-land&quot;&gt;Always Leaping, Never Happy Where You Land&lt;/h2&gt;
+
+&lt;p&gt;Studies have shown the more choices a customer has, the more likely they are to suffer from buyer’s remorse. With so many guitars to choose from you’ll never know if you’ve chosen the best one. In the back of your mind you will know that you might have gotten a better one. If only you had spent more time looking, or if you had spent more money, or gotten different options.&lt;/p&gt;
+
+&lt;p&gt;If you had just two choices for a &lt;a href=&quot;https://www.fender.com&quot;&gt;Fender Stratocaster&lt;/a&gt;, a &lt;strong&gt;$1500&lt;/strong&gt; model or a &lt;strong&gt;$800&lt;/strong&gt; model you would get the one you could afford. You would be happy knowing you did the best you could.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/danelectro-guitars.jpg&quot; alt=&quot;The Danelectro guitar offers real choice.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some guitar companies do this. &lt;a href=&quot;http://danelectro.com&quot;&gt;Danelectro guitars&lt;/a&gt; are not the most high-end instruments but they are very good. They have been making guitars since &lt;strong&gt;1954&lt;/strong&gt;. The company made guitars and amplifiers under contract that were branded with the names of various store brands, such as &lt;strong&gt;Silvertone&lt;/strong&gt; (&lt;em&gt;Sears&lt;/em&gt;) and &lt;strong&gt;Airline&lt;/strong&gt; (&lt;em&gt;Montgomery Ward&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;They don’t use exotic woods or come with hand crafted electronics. They are actually made out of Masonite and plywood. But who uses such a “&lt;em&gt;cheap&lt;/em&gt;” guitar? Well just people like, Glen Campbell, Elvis Costello, Jeff Beck, John Fogerty, Dave Mathews, George Harrison, Jimi Hendrix, and John Lee Hooker to name a few.&lt;/p&gt;
+
+&lt;p&gt;All the &lt;a href=&quot;http://danelectro.com&quot;&gt;Danelectro guitars&lt;/a&gt; are manufactured in the same place, Korea (&lt;em&gt;they make very good guitars&lt;/em&gt;). The most expensive guitar they sell is about &lt;strong&gt;$800&lt;/strong&gt;, and the cheapest is about &lt;strong&gt;$350&lt;/strong&gt;. But that is for different types of guitars. Within a specific model (&lt;em&gt;type&lt;/em&gt;) of guitar there are no “&lt;em&gt;versions&lt;/em&gt;”. The only option you get is color.&lt;/p&gt;
+
+&lt;p&gt;This means you know, for sure, you have gotten the &lt;strong&gt;BEST&lt;/strong&gt; &lt;a href=&quot;http://danelectro.com&quot;&gt;Danelectro guitar&lt;/a&gt; you can get. You pick the type of guitar for the style of music you play and &lt;strong&gt;BOM!&lt;/strong&gt; Done, no buyer’s remorse.&lt;/p&gt;
+
+&lt;h2 id=&quot;choosing-a-computer-is-not-any-better&quot;&gt;Choosing A Computer is Not Any Better&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.apple.com/mac/&quot;&gt;Apple&lt;/a&gt; is better than most, but they are still a bit of a nightmare. If you want a desktop computer you can either have the iMac or the Mac Mini. If you choose an iMac then you must choose iMac Pro or standard. If you choose the standard iMac then you have to choose size, &lt;strong&gt;21.5”&lt;/strong&gt; or &lt;strong&gt;27”&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/iMac-big-or-smal-or-iMac-Pro.jpg&quot; alt=&quot;The choice of a iMac or iMac Pro is not that simple.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However there are three levels within either the &lt;strong&gt;21.5”&lt;/strong&gt; or the &lt;strong&gt;27”&lt;/strong&gt; iMac. And within each one of those you have choices to make. The problem is, beyond the type (&lt;em&gt;laptop or desktop&lt;/em&gt;) and the style (&lt;em&gt;Mini or all-in-one&lt;/em&gt;) the average person has no idea what to choose. What &lt;strong&gt;CPU&lt;/strong&gt; should you get? How much &lt;strong&gt;RAM&lt;/strong&gt; do you need? How much storage space should you have?&lt;/p&gt;
+
+&lt;h2 id=&quot;it-really-doesnt-matter&quot;&gt;It Really Doesn’t Matter&lt;/h2&gt;
+
+&lt;p&gt;When it comes to &lt;a href=&quot;https://www.apple.com/mac/&quot;&gt;Apple products&lt;/a&gt; it really doesn’t matter. You can’t upgrade the machine after you buy it, so you had better get the &lt;strong&gt;MOST&lt;/strong&gt; of everything &lt;strong&gt;NOW&lt;/strong&gt;! The “&lt;em&gt;choice&lt;/em&gt;” they are giving you is an illusion. An illusion that does nothing but confuse people, even professionals.&lt;/p&gt;
+
+&lt;p&gt;Do I “&lt;em&gt;need&lt;/em&gt;” the &lt;strong&gt;i7&lt;/strong&gt;, &lt;strong&gt;4.2GHz&lt;/strong&gt; CPU? For what I do, more then likely not. But a new iMac without it will quickly become obsolete. Do I need an American made Fender guitar? Not really but it will hold its value far more than a Mexican made, or an Indonesian Squire.&lt;/p&gt;
+
+&lt;h2 id=&quot;fewer-choices-would-be-better&quot;&gt;Fewer choices would be better&lt;/h2&gt;
+
+&lt;p&gt;The technological revolution we are living in should give us fewer choices. We should have fewer choices but better options. Technology should make it possible to have the &lt;strong&gt;BEST&lt;/strong&gt; of a thing all wrapped up. Without having to choose between options that we don’t understand. We shouldn’t need an expert to weigh the pros and cons of a purchase that should be straight forward.&lt;/p&gt;
+
+&lt;p&gt;I have clients (&lt;em&gt;and friends&lt;/em&gt;) ask me all the time, what computer should I get? What web hosting company should I use. What e-commerce platform should I have. The problem in giving advice for those things is the myriad of choices within each choice. It is a rabbit hole that they have gone down, gotten lost and confused in, and now are asking for help.&lt;/p&gt;
+
+&lt;p&gt;Giving customers choice purely to offer lots of choices doesn’t make for happy customers. It makes for confused people who are never satisfied with what they choose.&lt;/p&gt;</content><category term="technology" /><category term="story" /><summary>I get asked all the time to be the arbiter of technology. People get overwhelmed with the volume of choices out there. And while choice and variety is good, it can sometimes be too much. After all, there is such a thing as too much of a good thing.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000too-much-choice.jpg" /></entry><entry><title>Why You Need A SSL Certificate</title><link href="http://localhost:4000/why-you-need-a-ssl-certificate/" rel="alternate" type="text/html" title="Why You Need A SSL Certificate" /><published>2017-12-16T00:00:00-05:00</published><updated>2017-12-16T00:00:00-05:00</updated><id>http://localhost:4000/why-you-need-a-ssl-certificate</id><content type="html" xml:base="http://localhost:4000/why-you-need-a-ssl-certificate/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/ssl-certificates-are-the-future.jpg&quot; alt=&quot;SSL Certificate are not as safe as we are told they are.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you all know the internet gods have deemed it necessary for all websites to be secure. This means applying a &lt;strong&gt;SSL certificate&lt;/strong&gt; to your domain. They don’t literally “&lt;em&gt;require&lt;/em&gt;” it but if you don’t have one all the browsers will label your site as “&lt;em&gt;Not having a Secure connection&lt;/em&gt;”. Depending on your device and the security settings this could mean next to nothing or it could block access to your site.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -403,31 +455,4 @@ The import code you enter in the command line is posted on the Jekyll website in
 
 &lt;p&gt;So that is the story about how a near death experience, resulting in excruciatingly painful burns and scarring brought me together with the best, and only  washer / dryer combo I have ever had. I got them when I was a young man of 23. They have washed my clothes every week since then. I am now an old man of 51. I have been married twice, and even though my current wife, Ester, is my heart and soul, my longest, most steady and fulfilling relationship has been with my washer &amp;amp; dryer.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/all-cleaned-up.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;</content><category term="story" /><summary>It was 1988, Ronald Regan was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000how-long-can-this-go-on.jpg" /></entry><entry><title>Reset the Permalinks using MySQL</title><link href="http://localhost:4000/reset-permalinks-using-mysql/" rel="alternate" type="text/html" title="Reset the Permalinks using MySQL" /><published>2016-04-20T18:45:41-04:00</published><updated>2016-04-20T18:45:41-04:00</updated><id>http://localhost:4000/reset-permalinks-using-mysql</id><content type="html" xml:base="http://localhost:4000/reset-permalinks-using-mysql/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/reset-permalinks-using-mysql.jpg&quot; alt=&quot;permalikns and how to reset them&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;I was migrating a site to a new Hosting account. The original hosting had the WordPress installation in a sub folder. However on the new hosting account there was no sub folder. This caused a huge problem and WordPress was looking for resources in a folder that didn’t exist.&lt;/p&gt;
-
-&lt;p&gt;The site worked, kind of, okay, it was a mess. This was because the Permalink structure was looking for a sub folder that didn’t exist. There was no way to log into the admin area and update it. All I was getting was a &lt;strong&gt;404&lt;/strong&gt; Page Not Found error when attempting to access the login page.&lt;/p&gt;
-
-&lt;h2 id=&quot;reset-the-permalinks&quot;&gt;Reset the Permalinks&lt;/h2&gt;
-
-&lt;p&gt;If you have more than one WordPress website on your hosting account you’ll need to know the name of your database. You can find that by either using the File Manager in cPanel or a FTP client and getting a look at your WordPress files.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/the-wp-confog-file.jpg&quot; alt=&quot;WordPress config file&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You need to open a file called “&lt;strong&gt;wp-config.php&lt;/strong&gt;” with any text editor. You are looking for the line that says &lt;strong&gt;/&lt;/strong&gt; The name of the database for WordPress */** right under that will be the name of the database. In this example the database name is &lt;strong&gt;danapress&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/wp-config-textmate.jpg&quot; alt=&quot;TextMate&quot; /&gt;
-Then go to your cPanel, look for the Databases section and click on the “&lt;strong&gt;phpMyAdmin&lt;/strong&gt;” icon.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/cPanel-databases.jpg&quot; alt=&quot;cPanel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the left column, look for the name of your database. Expand it and look for the table called “&lt;strong&gt;wp-options&lt;/strong&gt;”. In that table you are looking for the “option_name” of “&lt;strong&gt;siteurl&lt;/strong&gt;” and “&lt;strong&gt;home&lt;/strong&gt;”. Buy editing these two rows in this table you can fix the Permalinks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/danapress-phpmyadmin.jpg&quot; alt=&quot;phpMyAdmin&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this example the sub folder is called “&lt;strong&gt;wp&lt;/strong&gt;”. Once that is removed and the &lt;strong&gt;siteurl&lt;/strong&gt; and the &lt;strong&gt;home&lt;/strong&gt; match, the site should work properly again.
-You should now be able to log into the admin side. I would suggest you then reset your Permalinks from there, just in case.
-As always when working within the database be &lt;strong&gt;VERY CAREFUL&lt;/strong&gt;. Having said that, it is very simple and straightforward to edit the database.&lt;/p&gt;</content><category term="help" /><category term="mysql" /><category term="wordpress" /><summary>What do you do when you can’t access the admin side of Wordpress and you need to reset the Permalinks to get the site working again? I had this happen to me the other day.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000reset-permalinks-using-mysql.jpg" /></entry></feed>
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/all-cleaned-up.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;</content><category term="story" /><summary>It was 1988, Ronald Regan was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000how-long-can-this-go-on.jpg" /></entry></feed>
