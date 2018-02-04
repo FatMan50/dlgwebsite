@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-23T18:48:49-05:00</updated><id>http://localhost:4000/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>Too Much Choice?!</title><link href="http://localhost:4000/there-is-too-much-choice/" rel="alternate" type="text/html" title="Too Much Choice?!" /><published>2017-12-23T00:00:00-05:00</published><updated>2017-12-23T00:00:00-05:00</updated><id>http://localhost:4000/there-is-too-much-choice</id><content type="html" xml:base="http://localhost:4000/there-is-too-much-choice/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/too-much-choice.jpg&quot; alt=&quot;Too much choice can led to sadness and buyer's remorse.&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T18:22:23-05:00</updated><id>http://localhost:4000/</id><title>Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title>Location, A Flasher Story</title><link href="http://localhost:4000/location-a-flasher-story/" rel="alternate" type="text/html" title="Location, A Flasher Story" /><published>2018-02-04T00:00:00-05:00</published><updated>2018-02-04T00:00:00-05:00</updated><id>http://localhost:4000/location-a-flasher-story</id><content type="html" xml:base="http://localhost:4000/location-a-flasher-story/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Location-The-Flasher-Story.jpg&quot; alt=&quot;Locating the Flasher Module on a 2000 Ford F150.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do I use my blinker too much? I don’t think I do. But then, much like being an asshole, or truly crazy, self realization can be tricky. Asshole or not, I have had to replace the flasher module on both my &lt;a href=&quot;https://thebusabides.com&quot;&gt;Skoolie&lt;/a&gt;, as well as my 2000 Ford F150 pickup within the past &lt;strong&gt;30&lt;/strong&gt; days.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Now the &lt;a href=&quot;https://thebusabides.com&quot;&gt;Skoolie&lt;/a&gt; is a &lt;strong&gt;1995&lt;/strong&gt; so it’s failure could have been just to age. The blinkers didn’t totally fail on the bus. They began blinking like strobe lights. I was worried I was going to trigger seizures every time I made a turn.&lt;/p&gt;
+
+&lt;p&gt;The Ford F150 is a &lt;strong&gt;2000&lt;/strong&gt; so it does have a few years under it’s belt. With over 210,000 miles on it there are more then a few parts that have been replaced. However the blinker module is kind of an odd part to fail.&lt;/p&gt;
+
+&lt;h2 id=&quot;total-blinker-failure&quot;&gt;Total Blinker Failure!&lt;/h2&gt;
+
+&lt;p&gt;The blinkers stopped working, totally. Also the flashers would not work. When they first failed they come back to life for one or two turns before totally giving up the ghost. It wasn’t too hard to diagnose the problem. The fuse, (#13) on the fuse panel by the driver’s left knee was fine. That left just one culprit, the flasher module.&lt;/p&gt;
+
+&lt;p&gt;I must say the choice of location for such a simple little device is beyond me. In my memory I do not recall a flasher module being any other place than either the fuse panel inside the car, or the fuse box under the hood. Imagine my surprise when I found out the dash will need to be disassembled!&lt;/p&gt;
+
+&lt;h2 id=&quot;time-to-take-the-dash-apart&quot;&gt;Time To Take The Dash Apart!&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/Dash-taken-apart.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/Dash-taken-apart.jpg&quot; alt=&quot;Taking the dash apart on a 2000 Ford F150&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You have to remove the panel under the steering wheel, as well as the “&lt;strong&gt;C&lt;/strong&gt;” shaped panel around the top and sides of the steering column. Then you have to remove a bracket that is located just above, and behind, the &lt;strong&gt;ODB&lt;/strong&gt; port. The flasher module is mounted on this bracket.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/new-ford-flasher-module-installed.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/new-ford-flasher-module-installed.jpg&quot; alt=&quot;Remove the two bolts holding the bracket, it makes access to flasher module much easier.&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a cover that must be removed. Then you can get to the &lt;strong&gt;$17.49&lt;/strong&gt; part (&lt;em&gt;NAPA part# NF EP27&lt;/em&gt;). Then you just unplug the old one and install the new one. Then it is time to reinstall the dash. For us that meant doing it two times.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/Questioning-fords-flasher-location.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/Questioning-fords-flasher-location.jpg&quot; alt=&quot;Why did Ford up the flasher module here?&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The first time we got the dash together we realized we had forgotten to install the cap over the modules, and we had &lt;strong&gt;3 bolts leftover!&lt;/strong&gt; Removing it and putting it all back together a second time let us discover where those extra bolts went.&lt;/p&gt;
+
+&lt;p&gt;I’m sure there was a lot of planning and engineering that went into figuring out the best location for this module. However, I clearly see three unused spaces on the fuse panel that would accept a flasher-type module. Why those slots were left empty is beyond me. After all the &lt;a href=&quot;https://thebusabides.com&quot;&gt;Skoolie&lt;/a&gt; flasher module was simple to find and replace, no tools required!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/School-bus-flasher-module-location.jpg&quot; data-toggle=&quot;lightbox&quot; data-title=&quot;Image title&quot; data-footer=&quot;Image footer&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/images/School-bus-flasher-module-location.jpg&quot; alt=&quot;The 1995 International school bus has a much better flasher module location.&quot; width=&quot;960px&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="technology" /><category term="story" /><summary>Do I use my blinker too much? I don’t think I do. But then, much like being an asshole, or truly crazy, self realization can be tricky. Asshole or not, I have had to replace the flasher module on both my Skoolie, as well as my 2000 Ford F150 pickup within the past 30 days.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000Location-The-Flasher-Story.jpg" /></entry><entry><title>Too Much Choice?!</title><link href="http://localhost:4000/there-is-too-much-choice/" rel="alternate" type="text/html" title="Too Much Choice?!" /><published>2017-12-23T00:00:00-05:00</published><updated>2017-12-23T00:00:00-05:00</updated><id>http://localhost:4000/there-is-too-much-choice</id><content type="html" xml:base="http://localhost:4000/there-is-too-much-choice/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/too-much-choice.jpg&quot; alt=&quot;Too much choice can led to sadness and buyer's remorse.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I get asked all the time to be the arbiter of technology. People get overwhelmed with the volume of choices out there. And while choice and variety is good, it can sometimes be too much. After all, there is such a thing as too much of a good thing.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -411,48 +449,4 @@ The import code you enter in the command line is posted on the Jekyll website in
 
 &lt;p&gt;It comes down to having a realistic view of what your website will do. Once you realize your website is not going to be as fancy as &lt;a href=&quot;https://www.tesla.com&quot;&gt;Tesla’s&lt;/a&gt; or Facebook. You may come to the conclusion that a static site might be the right fit for you. A static site is also very flexible and expandable which makes it a great choice if you are starting a new site.&lt;/p&gt;
 
-&lt;p&gt;Should you Jekyll? I would bet a lot of sites would benefit greatly from switching to a static format. I also believe you will see more and more static sites in the future. We are coming around full circle. A modern static site is a far cry from the very first website. But in spirit, it has a connection to the very beginning of the web.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000to-jekyll-or-not-static-site.jpg" /></entry><entry><title>How Long Can it Go On!</title><link href="http://localhost:4000/long-can-go/" rel="alternate" type="text/html" title="How Long Can it Go On!" /><published>2016-09-06T18:45:41-04:00</published><updated>2016-09-06T18:45:41-04:00</updated><id>http://localhost:4000/how-log-can-this-go-on</id><content type="html" xml:base="http://localhost:4000/long-can-go/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/how-long-can-this-go-on.jpg&quot; alt=&quot;how long&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It was 1988, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ronald_Reagan&quot;&gt;Ronald Regan &lt;/a&gt;was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;It was not my fault. We were following what we thought were proper procedures. To be honest we had no idea what proper procedures were. Young men are task orientated, which is great for productivity but horrible for safety.&lt;/p&gt;
-
-&lt;p&gt;The technical aspects are not important, suffice it to say there was an “event”. A 2500 degree furnace experienced a positive pressure condition. At this moment myself and Kevin Lemoine happened to be standing in front of an open door to the furnace.&lt;/p&gt;
-
-&lt;p&gt;The blast of super hot air and ash resulted in second and third degree burns on 20% of my body. It was completely painless. Within seconds both my forearms, from wrist to elbow were giant blisters filled with about half a cup each of a yellowish fluid. The pain came days and weeks later when twice a day the raw flesh had to be scrubbed free of any dead skin and then re-wrapped.&lt;/p&gt;
-
-&lt;p&gt;Cut to six months later, I was sitting in an office in a nondescript strip mall just outside of Worcester Massachusetts. I was waiting to get my scars measured, I had no idea why I was there, except that my employer had insisted I go. After they asked me to disrobe they proceeded to measure all my scars.&lt;/p&gt;
-
-&lt;p&gt;Thirty days after the odd scar measuring in Worcester I got a check for $5000. It was a win-fall, I had not seen that much money in one place out side of Cartagena Colombia. Naturally, as all 23 year-olds with a stack of found money would do, I rushed to Sears and bought the best washer / dryer combo I could find.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-the-hell-is-this-post-about&quot;&gt;What the Hell is This Post About?&lt;/h2&gt;
-
-&lt;p&gt;These two, off white, high capacity Kenmore appliances were the top of the line in 1988. No expense was spaired. I even purchased the extended warranty and the 3 year home service plan. The last decision would prove, in the long run, to be a poor one.&lt;/p&gt;
-
-&lt;p&gt;This pair of appliances went everywhere with me. They were first installed in the apartment I shared with my first wife, god rest her soul, in Worcester. She’s not dead, but I can dream. Next the appliances went with us when we moved to Florida.&lt;/p&gt;
-
-&lt;p&gt;The first 6 months they were put in storage while we stayed in an apartment . Once we found a house they moved in with us. For 5 years everything was lovey-dovey, meaning the appliances worked great. If only the marriage worked as well. So it came to pass that the appliances moved with me to a one bedroom apartment.&lt;/p&gt;
-
-&lt;p&gt;We enjoyed our bachelor life together for a long time. Then came Ester and after a few years the appliances were back in storage while we built a new home.&lt;/p&gt;
-
-&lt;p&gt;Back in 2003 we took the 15 year old appliances from storage and put them in their new home. Here they have stayed, working faithfully for the past 13 years.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-there-a-point-to-this-story&quot;&gt;Is there a Point to this story!?&lt;/h2&gt;
-
-&lt;p&gt;Aside from some agitator dogs in the washer and a light in the dryer we have done zero repairs and zero maintenance. That is until today. As it happens the washer didn’t spin its last load yesterday. Everything else was normal, it just didn’t spin dry at the end.&lt;/p&gt;
-
-&lt;p&gt;As usual we hit Google and YouTube hard looking for advice and troubleshooting tutorials. We decided to take the washer apart and see if a $10 part had broken or if it was a more serious problem. Moving it was not pleasant, it apparently still had a good amount of water in it. Most likely from us squeezing out the wet clothes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/on-the-operating-table.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We got the old girl up on the kitchen table and looked up her bottom end. We pulled her guts out and examined all her parts. Everything was absolutely disgusting but totally intact. We could find no problems. We had no choice but to clean her up the best we could and put her back together.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/guts-taken-out.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We have run 3 loads through her so far. All seems well. As a matter of fact she fills with water like never before. It helps to clean the water intake screens once in a while. We are optimistic for the future, we had no idea how backwards and helpless one feels without a clothes washer in the house.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-a-mess.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So that is the story about how a near death experience, resulting in excruciatingly painful burns and scarring brought me together with the best, and only  washer / dryer combo I have ever had. I got them when I was a young man of 23. They have washed my clothes every week since then. I am now an old man of 51. I have been married twice, and even though my current wife, Ester, is my heart and soul, my longest, most steady and fulfilling relationship has been with my washer &amp;amp; dryer.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/all-cleaned-up.jpg&quot; alt=&quot;appliances&quot; /&gt;&lt;/p&gt;</content><category term="story" /><summary>It was 1988, Ronald Regan was president, the Los Angeles Dodgers won the World Series, The Cosby Show and Roseanne were the top TV shows, and I narrowly escaped a fiery death. Little did I know that accident,that nearly killed me, would start a 27 year long relationship.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000how-long-can-this-go-on.jpg" /></entry></feed>
+&lt;p&gt;Should you Jekyll? I would bet a lot of sites would benefit greatly from switching to a static format. I also believe you will see more and more static sites in the future. We are coming around full circle. A modern static site is a far cry from the very first website. But in spirit, it has a connection to the very beginning of the web.&lt;/p&gt;</content><category term="help" /><category term="jekyll" /><summary>Lets all do the Peppermint Twist, for real! All old things are new again. Todays technology has advanced enough to let you take advantage of a static site again. Even though we have been working to make all websites dynamic, its time to reap the benefits of some old school strategies.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000to-jekyll-or-not-static-site.jpg" /></entry></feed>
