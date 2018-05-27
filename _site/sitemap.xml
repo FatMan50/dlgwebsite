@@ -101,29 +101,16 @@
 <lastmod>2018-02-04T00:00:00-05:00</lastmod>
 </url>
 <url>
-<<<<<<< HEAD
-<loc>http://localhost:4000/tags/</loc>
-</url>
-<url>
-=======
->>>>>>> a6f7adb85ff7ce9ac28f5f0f0ea684dd1dd9ab79
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
-<<<<<<< HEAD
-<loc>http://localhost:4000/contact-me/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-=======
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/portfolio/</loc>
->>>>>>> a6f7adb85ff7ce9ac28f5f0f0ea684dd1dd9ab79
 </url>
 <url>
 <loc>http://localhost:4000/it-services/</loc>
@@ -132,14 +119,12 @@
 <loc>http://localhost:4000/references/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/</loc>
+<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/page2/</loc>
+<loc>http://localhost:4000/contact-me/</loc>
 </url>
 <url>
-<<<<<<< HEAD
-=======
 <loc>http://localhost:4000/bower_components/bootstrap/CHANGELOG/</loc>
 </url>
 <url>
@@ -185,7 +170,6 @@
 <loc>http://localhost:4000/page2/</loc>
 </url>
 <url>
->>>>>>> a6f7adb85ff7ce9ac28f5f0f0ea684dd1dd9ab79
 <loc>http://localhost:4000/page3/</loc>
 </url>
 <url>
