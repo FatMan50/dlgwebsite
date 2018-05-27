@@ -101,19 +101,29 @@
 <lastmod>2018-02-04T00:00:00-05:00</lastmod>
 </url>
 <url>
+<<<<<<< HEAD
 <loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
+=======
+>>>>>>> a6f7adb85ff7ce9ac28f5f0f0ea684dd1dd9ab79
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
+<<<<<<< HEAD
 <loc>http://localhost:4000/contact-me/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
+=======
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/</loc>
+>>>>>>> a6f7adb85ff7ce9ac28f5f0f0ea684dd1dd9ab79
 </url>
 <url>
 <loc>http://localhost:4000/it-services/</loc>
@@ -128,6 +138,54 @@
 <loc>http://localhost:4000/page2/</loc>
 </url>
 <url>
+<<<<<<< HEAD
+=======
+<loc>http://localhost:4000/bower_components/bootstrap/CHANGELOG/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/CHANGELOG/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/1-Overview/1-why_you_should_use_tether/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/1-Overview/2-repositioning/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/1-Overview/3-why_we_dont_support_IE_8/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/2-Examples/1-list_of_examples/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/2-Examples/2-projects_using_tether/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/3-Advanced/1-embedding_tether/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/3-Advanced/2-extending_tether/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/docs/intro/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/bootstrap/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/ekko-lightbox/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/jquery/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/tether/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
+>>>>>>> a6f7adb85ff7ce9ac28f5f0f0ea684dd1dd9ab79
 <loc>http://localhost:4000/page3/</loc>
 </url>
 <url>
