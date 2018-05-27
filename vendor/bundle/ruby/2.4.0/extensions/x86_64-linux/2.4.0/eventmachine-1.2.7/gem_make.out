@@ -1,0 +1,30 @@
+current directory: /home/ester/Documents/DanaCurrent/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/ester/.rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20180526-11655-pm6osq.rb extconf.rb
+creating Makefile
+
+current directory: /home/ester/Documents/DanaCurrent/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/ester/Documents/DanaCurrent/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-compare’
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-compare’
+linking shared-object fastfilereaderext.so
+
+current directory: /home/ester/Documents/DanaCurrent/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20180526-11655-1f6ofs5
