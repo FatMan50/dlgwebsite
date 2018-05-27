@@ -8,7 +8,7 @@ image: Location-The-Flasher-Story.jpg
 
 ![Locating the Flasher Module on a 2000 Ford F150.]({{  site.baseurl | prepend: site.url }}/images/Location-The-Flasher-Story.jpg)
 
-Do I use my blinker too much? I don’t think I do. But then, much like being an asshole, or truly crazy, self realization can be tricky. Asshole or not, I have had to replace the flasher module on both my [Skoolie](https://thebusabides.com), as well as my 2000 Ford F150 pickup within the past **30** days.<!--more-->
+Do I use my blinker too **much**? I don’t think I do. But then, much like being an asshole, or truly crazy, self realization can be tricky. Asshole or not, I have had to replace the flasher module on both my [Skoolie](https://thebusabides.com), as well as my 2000 Ford F150 pickup within the past **30** days.<!--more-->
 
 Now the [Skoolie](https://thebusabides.com) is a **1995** so it’s failure could have been just to age. The blinkers didn’t totally fail on the bus. They began blinking like strobe lights. I was worried I was going to trigger seizures every time I made a turn.
 
