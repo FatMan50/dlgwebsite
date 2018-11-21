@@ -24,7 +24,7 @@ I see way too many “*developers*” who, through either spite or laziness do n
 
 ### As a client, what should I have?
 
-Any developer you hire should supply you with everything! All the URL’s and all the passwords to everything should be given to you. All accounts, everything like hosting, or SSL certificates, or any type of cloud service like **CDN**, should ALL be setup using your email accounts.
+Any developer you hire should supply you with everything! All the URL’s and all the passwords to everything should be given to you. All accounts, everything like hosting, or **SSL certificates**, or any type of cloud service like **CDN**, should ALL be setup using your email accounts.
 
 If, and when you move away from your developer you need to be able to do two things. The first is gain access to all your services. The second is to change the passwords to all your services so the old developer no longer has access. This is to protect yourself as well as your old developer.
 
