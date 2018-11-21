@@ -101,6 +101,10 @@
 <lastmod>2018-02-04T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/do-not-lock-clients-out/</loc>
+<lastmod>2018-11-21T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
@@ -177,6 +181,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page5/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page6/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/bower_components/tether/docs/welcome/browser-demo.html</loc>

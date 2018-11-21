@@ -20,6 +20,8 @@ The blinkers stopped working, totally. Also the flashers would not work. When th
 
 I must say the choice of location for such a simple little device is beyond me. In my memory I do not recall a flasher module being any other place than either the fuse panel inside the car, or the fuse box under the hood. Imagine my surprise when I found out the dash will need to be disassembled!
 
+
+
 ## Time To Take The Dash Apart!
 
 <a href="{{  site.baseurl | prepend: site.url }}/images/Dash-taken-apart.jpg" data-toggle="lightbox" data-title="Image title" data-footer="Image footer">
