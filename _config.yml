@@ -88,6 +88,7 @@ exclude:
   - package.json
   - spec
   - tmp
+  - vendor
 
 # Post Settings
 excerpt_separator: <!--more-->
