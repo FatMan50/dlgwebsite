@@ -18,7 +18,7 @@ Moreover, your professionalism should be what supports you through difficult cli
 
 ## What do you owe clients?
 
-**You owe them everything!** By that I mean they should get everything. They should be given access to every service you create or manage for them. You are morally (and legally) obligated to make sure they have all the account names, URL’s and passwords for **ALL** their sites and services.
+**You owe them everything!** By that I **mean** they should get everything. They should be given access to every service you create or manage for them. You are morally (and legally) obligated to make sure they have all the account names, URL’s and passwords for **ALL** their sites and services.
 
 I see way too many “*developers*” who, through either spite or laziness do not supply this vital information to their clients. Too many times I have had to hunt down and reset all kinds of information for clients because their original developer has flaked on them.
 
