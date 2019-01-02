@@ -8,7 +8,7 @@ image: angry-IT-guy.jpg
 
 ![Locking out clients is a bad idea]({{  site.baseurl | prepend: site.url }}/images/angry-IT-guy.jpg)
 
-As a developer I feel it is morally (*and legally*) wrong to withhold information about a clients website or hosting. Why some developers take their anger or frustration out on their clients is beyond me. I fully understand how difficult some clients can be, but nothing they can do should make you abandon your own professionalism.<!--more-->
+As a developer **I** feel it is morally (*and legally*) wrong to withhold information about a clients website or hosting. Why some developers take their anger or frustration out on their clients is beyond me. I fully understand how difficult some clients can be, but nothing they can do should make you abandon your own professionalism.<!--more-->
 
 ## Be Professional at all times!
 
