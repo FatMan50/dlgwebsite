@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-01T20:17:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title type="html">Do Not Lock Clients Out!</title><link href="http://localhost:4000/do-not-lock-clients-out/" rel="alternate" type="text/html" title="Do Not Lock Clients Out!" /><published>2018-11-21T00:00:00-05:00</published><updated>2018-11-21T00:00:00-05:00</updated><id>http://localhost:4000/do-not-lock-clients-out</id><content type="html" xml:base="http://localhost:4000/do-not-lock-clients-out/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/angry-IT-guy.jpg&quot; alt=&quot;Locking out clients is a bad idea&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-03T21:21:12-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title type="html">E-commerce Jekyll Driven Website</title><link href="http://localhost:4000/jekyll-swarmcell-website/" rel="alternate" type="text/html" title="E-commerce Jekyll Driven Website" /><published>2019-07-03T00:00:00-04:00</published><updated>2019-07-03T00:00:00-04:00</updated><id>http://localhost:4000/jekyll-swarmcell-website</id><content type="html" xml:base="http://localhost:4000/jekyll-swarmcell-website/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-and-e-commerce.jpg&quot; alt=&quot;Using Jekyll to drive an e-commerce website&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently I &lt;a href=&quot;https://swarmcell.com&quot; title=&quot;All Natural Beeswax Lip Balm&quot;&gt;built an e-commerce website&lt;/a&gt; using the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;static site builder Jekyll&lt;/a&gt;. This is a quick over-view of what I did. This being my first attempt at a &lt;a href=&quot;https://youtu.be/gJ6C1xczFzw&quot; title=&quot;my video tutorial&quot;&gt;Jekyll driven e-commerce website&lt;/a&gt; there were some issues to overcome. I hope this post, and video, will be helpful to anyone doing this for the first time. I’m sure I made mistakes, and if I was to build a second site, there are things I would do differently.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed//gJ6C1xczFzw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’ve built a lot of &lt;a href=&quot;https://www.shopify.com&quot; title=&quot;Shopify&quot;&gt;e-commerce sites using Shopify&lt;/a&gt;, &lt;a href=&quot;https://woocommerce.com&quot; title=&quot;WooCommerce&quot;&gt;WordPress &amp;amp; WooCommerce&lt;/a&gt;, and even &lt;a href=&quot;https://magento.com&quot; title=&quot;Magento&quot;&gt;Magento&lt;/a&gt;. But my love of simplicity and what static sites bring to the table inspired me to try this project.&lt;/p&gt;
+
+&lt;p&gt;If you are reading this post I am going to assume you already know how to install and use &lt;a href=&quot;https://jekyllrb.com/&quot; title=&quot;Static Site Builder&quot;&gt;Jekyll&lt;/a&gt;. There are tons of great resources out there if you are not familiar with how a static site generator works. I personally love working with Jekyll and &lt;a href=&quot;https://github.com&quot;&gt;GitHub pages&lt;/a&gt;. I moved all my websites away from WordPress to Jekyll. The sites are faster, more secure, and easier to maintain.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-and-data-files&quot;&gt;Jekyll and Data Files&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/product-yml-date-file.jpg&quot; alt=&quot;Using Jekyll to drive an e-commerce website&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You are going to need some way of &lt;a href=&quot;https://jekyllrb.com/docs/datafiles/&quot; title=&quot;Static Site Builder&quot;&gt;managing product data&lt;/a&gt;. And if you want to use a place like &lt;a href=&quot;https://jekyllrb.com/docs/datafiles/&quot; title=&quot;Static Site Builder&quot;&gt;GitHub to host your site&lt;/a&gt;, you can’t use a database. The best solution is to use a &lt;strong&gt;CSV&lt;/strong&gt;, &lt;strong&gt;YML&lt;/strong&gt; , or &lt;strong&gt;JSON&lt;/strong&gt; file.&lt;/p&gt;
+
+&lt;p&gt;In my project I created a simple &lt;strong&gt;YML&lt;/strong&gt; file. As you can see below I created &lt;em&gt;“records”&lt;/em&gt;. Each product, in this case beeswax lip balm, is represented by one record. You can include as little or as much data as your products need.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pepermeint:
+   title: Peppermint Lip Balm
+   image: assets/images/Peppermint-Lip-Balm.jpg
+   id: 201806
+   date: Wed, 28 Aug 2013 00:58:13
+   description: Our all natural Peppermint lip balm was a great hit with our family &amp;amp; friends. We hope you enjoy it too!
+   excerpt: Our BEST SELLING lip balm - you'll love it!
+   flavor: Peppermint
+   quantity: 14
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After the YML data file has been created you save it in the &lt;em&gt;“_data”&lt;/em&gt; folder within your Jekyll project. This data can also be leveraged by plugins and themes. But in my project I’m keeping it as simple as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-product-page&quot;&gt;Creating a Product Page&lt;/h2&gt;
+
+&lt;p&gt;By using the blog post function of Jekyll I was able to quickly create product pages. All I had to do was add some variables to the &lt;em&gt;“front matter”&lt;/em&gt;. Beyond the normal variables like layout, title, and description. I had to add one that would connect the post to a specific “record” in the Product.yml file.&lt;/p&gt;
+
+&lt;p&gt;This way the content on the blog post page will come from the YML file. In essence a product page is just a Post with some specific front matter. If I add a new product it will appear at the top of the home page. If you’ve worked with Jekyll at all, most of this stuff is fairly normal.&lt;/p&gt;
+
+&lt;h2 id=&quot;product-page-layout--the-tricky-part&quot;&gt;Product Page Layout – The Tricky Part&lt;/h2&gt;
+
+&lt;p&gt;This being my first use of data files with Jekyll, I came across a few things that stumped me. Pulling information from the data file and displaying it on the page was fairly straight forward.&lt;/p&gt;
+
+&lt;p&gt;I found out that you can pass a front matter element into the code by way of the square brackets &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[ ]&lt;/code&gt;&lt;/strong&gt;. However, where the dots go (&lt;em&gt;and don’t go&lt;/em&gt;) make all the difference. Normally each section of the “&lt;em&gt;path&lt;/em&gt;” in the code is separated by a dot. For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site.data.products.lip-balm.price
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This basically says to look in the &lt;strong&gt;SITE&lt;/strong&gt;, in the &lt;strong&gt;DATA&lt;/strong&gt; folder, in the &lt;strong&gt;PRODUCTS&lt;/strong&gt; file, look for the &lt;strong&gt;LIP-BALM&lt;/strong&gt; record, and display the &lt;strong&gt;PRICE&lt;/strong&gt;. Simple enough to understand. However when this is used in a layout file I needed to grab information from the front matter.&lt;/p&gt;
+
+&lt;p&gt;Things like paths to product images are stored in the &lt;strong&gt;YML&lt;/strong&gt; file. The layout needs to know what “&lt;em&gt;record&lt;/em&gt;” in the &lt;strong&gt;YML&lt;/strong&gt; file is associated with this Post (&lt;em&gt;product page&lt;/em&gt;) and display the information from that record. To do that you need to dynamically pull the “&lt;em&gt;record&lt;/em&gt;” from the front matter.&lt;/p&gt;
+
+&lt;p&gt;This changes the way the code is written. It is a little unintuitive. In the above example each item is separated by a &lt;strong&gt;DOT&lt;/strong&gt;. Logically I thought the &lt;strong&gt;DOTS&lt;/strong&gt; would stay and I’d just have to add a little more code. By adding in, &lt;code class=&quot;highlighter-rouge&quot;&gt;[page.record]&lt;/code&gt; I should be adding the specific record from the front matter. Something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site.data.products.[page.record].image}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;However, that is &lt;strong&gt;WRONG&lt;/strong&gt;. I added an extra &lt;strong&gt;DOT&lt;/strong&gt;. The &lt;strong&gt;DOT&lt;/strong&gt; after “&lt;em&gt;products&lt;/em&gt;” caused this to fail. The correct way to write this is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site.data.products[page.record].image
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To my eye this “&lt;em&gt;looks&lt;/em&gt;” wrong. It looks like the “&lt;em&gt;record&lt;/em&gt;” pulled from the front matter will be stuck next to the word “&lt;em&gt;products&lt;/em&gt;”. But that isn’t what happens. Writing it that way works like a charm. That little DOT caused me an endless amount of grief.&lt;/p&gt;
+
+&lt;p&gt;In the video above I go further into things like using &lt;a href=&quot;https://snipcart.com&quot; title=&quot;Static Site Shopping Cart&quot;&gt;SnipCart as the shopping cart&lt;/a&gt;. As well as using &lt;a href=&quot;https://stripe.com&quot; title=&quot;Payment Gateway&quot;&gt;Stripe as your payment gateway&lt;/a&gt;. Both of those products work very well with &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Static Site Builder&quot;&gt;Jekyll&lt;/a&gt;. As I said, this is my first time using &lt;a href=&quot;https://jekyllrb.com/&quot; title=&quot;Static Site Builder&quot;&gt;Jekyll&lt;/a&gt; as a e-commerce platform. Using SnipCart and Stripe made things a lot easier.&lt;/p&gt;
+
+&lt;p&gt;Hosting the site is a mixture of &lt;a href=&quot;https://github.com&quot; title=&quot;My Favorite Place&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://cloudcannon.com&quot;&gt;CloudCannon&lt;/a&gt;. Although since this Post was written the swarmcell lip balm site has been moved to &lt;a href=&quot;https://www.netlify.com&quot; title=&quot;Static Site hosting&quot;&gt;Netlify&lt;/a&gt;. Between the two I feel &lt;a href=&quot;https://www.netlify.com&quot; title=&quot;Static Site website hosting&quot;&gt;Netlify is a better choice for e-commerce hosting&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope this helped. I would love to hear your thoughts and or suggestions. Please share this Post if it was valuable to you. And I look forward to your tips and constructive criticism.&lt;/p&gt;</content><author><name></name></author><category term="technology" /><category term="business" /><category term="e-commerce" /><summary type="html">Recently I built an e-commerce website using the static site builder Jekyll. This is a quick over-view of what I did. This being my first attempt at a Jekyll driven e-commerce website there were some issues to overcome. I hope this post, and video, will be helpful to anyone doing this for the first time. I’m sure I made mistakes, and if I was to build a second site, there are things I would do differently.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jekyll-and-e-commerce.jpg" /></entry><entry><title type="html">Do Not Lock Clients Out!</title><link href="http://localhost:4000/do-not-lock-clients-out/" rel="alternate" type="text/html" title="Do Not Lock Clients Out!" /><published>2018-11-21T00:00:00-05:00</published><updated>2018-11-21T00:00:00-05:00</updated><id>http://localhost:4000/do-not-lock-clients-out</id><content type="html" xml:base="http://localhost:4000/do-not-lock-clients-out/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/angry-IT-guy.jpg&quot; alt=&quot;Locking out clients is a bad idea&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a developer &lt;strong&gt;I&lt;/strong&gt; feel it is morally (&lt;em&gt;and legally&lt;/em&gt;) wrong to withhold information about a clients website or hosting. Why some developers take their anger or frustration out on their clients is beyond me. I fully understand how difficult some clients can be, but nothing they can do should make you abandon your own professionalism.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -356,95 +424,4 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;I hope that if someone in the future is struggling with something I have worked on, or with, that they can feel my desire to do it correctly. It would be nice if they could tell I liked what I did, and I tried to do it with care.&lt;/p&gt;
 
-&lt;p&gt;Or maybe this was all in my head. Maybe it is just a database, a collection of numbers and letters in little boxes that can’t record anything about its user. But, I hope not.&lt;/p&gt;</content><author><name></name></author><summary type="html">How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-is-an-echo-of-you.jpg" /></entry><entry><title type="html">Migrating from WordPress to Jekyll</title><link href="http://localhost:4000/migrate-from-wordpress-to-jekyll/" rel="alternate" type="text/html" title="Migrating from WordPress to Jekyll" /><published>2016-09-23T02:57:32-04:00</published><updated>2016-09-23T02:57:32-04:00</updated><id>http://localhost:4000/migrate-from-wordpress-to-jekyll</id><content type="html" xml:base="http://localhost:4000/migrate-from-wordpress-to-jekyll/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/migrate-from-wordpress-to-jekyll.jpg&quot; alt=&quot;moving from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So, you want to migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; to &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to migrate from WordPress to &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and you want to bring in all your old Posts and Pages, this is what you need to do. You need to get your WordPress database, install it on a local MySQL database, then migrate it from that database to Jekyll. Simple, there you go, thank you for reading this post! Bye!&lt;/p&gt;
-
-&lt;p&gt;I wish it was that simple. I use &lt;a href=&quot;http://godaddy.com&quot;&gt;GoDaddy&lt;/a&gt; for hosting and they have cPanel which is good. Log into whatever control panel you have, go to the &lt;strong&gt;phpMyAdmin&lt;/strong&gt;. When in &lt;strong&gt;phpMyAdmin&lt;/strong&gt; find your database, click on it and click the “&lt;em&gt;Export&lt;/em&gt;” tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/cPanel-and-phpMyAdmin.jpg&quot; alt=&quot;cPanel in phpMyAdmin&quot; /&gt;
-&lt;em&gt;cPanel locate phpMyAmin&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The Export screen is super simple. Just leave all the settings alone and click the Go button. It will download the database as an SQL file.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/export-your-wordpress-database.jpg&quot; alt=&quot;Export your data&quot; /&gt;
-&lt;em&gt;Export your data&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;You should install &lt;a href=&quot;https://mamp.info&quot;&gt;MAMP&lt;/a&gt;, it will run on a Windows, Linux or Mac system, I use a Mac. Once &lt;a href=&quot;https://mamp.info&quot;&gt;MAMP&lt;/a&gt; is installed and running, you want to go to phpMyAdmin and create a database. Once it is created, click the “Import” tab. Click the “&lt;strong&gt;Choose File&lt;/strong&gt;” button then navigate to the SQL file you downloaded from you hosting account.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/create-a-new-database.jpg&quot; alt=&quot;create a database in phpmyadmimn&quot; /&gt;
-&lt;em&gt;Create a Database&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/import-wordpress-data.jpg&quot; alt=&quot;import the wordpress data&quot; /&gt;
-&lt;em&gt;Import the WordPress data&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;migrate-from-wordpress--now-for-jekyll&quot;&gt;Migrate from WordPress – Now for Jekyll&lt;/h2&gt;
-&lt;p&gt;I am assuming you have &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; installed and you have created a new &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; project. After that is done you should have a folder that looks something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/default-jekyll-project-folder.jpg&quot; alt=&quot;default Jekyll folder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The default Jekyll website looks like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/default-jekyl-website.jpg&quot; alt=&quot;Migrating from WordPress - Jekyll default website&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The default theme that &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; uses (at the time this was written) is called Minima. I found it helpful to &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;download the Minima theme&lt;/a&gt; so you have the default files to deal with.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/minima-folder-files.jpg&quot; alt=&quot;minima-folder-files&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now it is time to import the data from your local &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; database. This can be tricky and you can run into some problems. I have done this before without any issues. Then when I try and do it a week later I have nothing but issues. It is important to stay calm and work the problem and not get frustrated.&lt;/p&gt;
-
-&lt;p&gt;For example, this last time I had to add the following to the Gemfile. I didn’t have to do this the last time.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;sequel&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;and:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;unidecode&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/gemfile-and-added-gems.jpg&quot; alt=&quot;migrating from WordPress to Jekyll&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I also ran into a problem with the &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; import. I had to install it using this:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s not the end either. I had to install the following in order to get Ruby to connect to the database.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install mysql2&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Connecting to the database was another issue. If you are using MAMP the “&lt;em&gt;Path&lt;/em&gt;” is very specific and something I struggled with. The Path you want to use it:&lt;/p&gt;
-
-&lt;p&gt;1
-/Applications/MAMP/tmp/mysql/mysql.sock
-The import code you enter in the command line is posted on the Jekyll website in the migration section. Below is what I used, remember you will need to put in your own database name, user, and password. This is the code I used:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby -rubygems -e 'require &quot;jekyll-import&quot;;
-    JekyllImport::Importers::WordPress.run({
-      &quot;dbname&quot;   =&amp;gt; &quot;group-1&quot;,
-      &quot;user&quot;     =&amp;gt; &quot;root&quot;,
-      &quot;password&quot; =&amp;gt; &quot;root&quot;,
-      &quot;host&quot;     =&amp;gt; &quot;localhost&quot;,
-      &quot;socket&quot;   =&amp;gt; &quot;/Applications/MAMP/tmp/mysql/mysql.sock&quot;,
-      &quot;table_prefix&quot;   =&amp;gt; &quot;wp_&quot;,
-      &quot;site_prefix&quot;    =&amp;gt; &quot;&quot;,
-      &quot;clean_entities&quot; =&amp;gt; true,
-      &quot;comments&quot;       =&amp;gt; true,
-      &quot;categories&quot;     =&amp;gt; true,
-      &quot;tags&quot;           =&amp;gt; true,
-      &quot;more_excerpt&quot;   =&amp;gt; true,
-      &quot;more_anchor&quot;    =&amp;gt; true,
-      &quot;extension&quot;      =&amp;gt; &quot;html&quot;,
-      &quot;status&quot;         =&amp;gt; [&quot;publish&quot;]
-    })'
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;migration-is-not-100-perfect&quot;&gt;Migration is not 100% Perfect&lt;/h3&gt;
-&lt;p&gt;Hopefully if you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; it will go smoothly. I said before, if you get errors work them. Copy and paste them in Google, read what other people did to fix the issues. It is not that difficult to figure out, I did and so can you.&lt;/p&gt;
-
-&lt;p&gt;The result will be a horrible looking website. But that is what you get when you migrate from &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt;. This is what my site looked like after the migration.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/website-after-wordpress-migration.jpg&quot; alt=&quot;migrate from WordPress website-after-wordpress-migration&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This does require a lot of clean-up and moving of images. But it does a lot of the heavy lifting up front. It might look messy but it gives you a jumping off point. You now have all the content from your &lt;a href=&quot;http://wordpress.org&quot;&gt;WordPress&lt;/a&gt; site in &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I just want to remind people that I am still learning. I do not know all the tricks. I am just putting this out there for people like me. I believe that it is important to share your knowledge and help other people. Everyday in my journey of learning I am thankful for the countless people out there that are willing to share what they know. I hope this helps someone.&lt;/p&gt;</content><author><name></name></author><category term="help" /><category term="jekyll" /><summary type="html">So, you want to migrate from WordPress to Jekyll. It can be easy or a huge pain in the ass. Well, when it comes to dealing with Jekyll it is never apple pie simple. But every time you use it you do learn something. I find learning as you go to be more important than just a simple point-and-click experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/migrate-from-wordpress-to-jekyll.jpg" /></entry></feed>
+&lt;p&gt;Or maybe this was all in my head. Maybe it is just a database, a collection of numbers and letters in little boxes that can’t record anything about its user. But, I hope not.&lt;/p&gt;</content><author><name></name></author><summary type="html">How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-is-an-echo-of-you.jpg" /></entry></feed>
