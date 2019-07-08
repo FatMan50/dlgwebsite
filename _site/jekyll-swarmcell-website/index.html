@@ -203,8 +203,7 @@ Reading time ~4 minutes
 
 <p>I found out that you can pass a front matter element into the code by way of the square brackets <strong><code class="highlighter-rouge">[ ]</code></strong>. However, where the dots go (<em>and don’t go</em>) make all the difference. Normally each section of the “<em>path</em>” in the code is separated by a dot. For example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>site.data.products.lip-balm.price
-</code></pre></div></div>
+<p><code class="highlighter-rouge">{{ site.data.products.lip-balm.price }}</code></p>
 
 <p>This basically says to look in the <strong>SITE</strong>, in the <strong>DATA</strong> folder, in the <strong>PRODUCTS</strong> file, look for the <strong>LIP-BALM</strong> record, and display the <strong>PRICE</strong>. Simple enough to understand. However when this is used in a layout file I needed to grab information from the front matter.</p>
 
@@ -212,13 +211,11 @@ Reading time ~4 minutes
 
 <p>This changes the way the code is written. It is a little unintuitive. In the above example each item is separated by a <strong>DOT</strong>. Logically I thought the <strong>DOTS</strong> would stay and I’d just have to add a little more code. By adding in, <code class="highlighter-rouge">[page.record]</code> I should be adding the specific record from the front matter. Something like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>site.data.products.[page.record].image}}
-</code></pre></div></div>
+<p><code class="highlighter-rouge">{{ site.data.products.[page.record].image }}</code></p>
 
 <p>However, that is <strong>WRONG</strong>. I added an extra <strong>DOT</strong>. The <strong>DOT</strong> after “<em>products</em>” caused this to fail. The correct way to write this is:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>site.data.products[page.record].image
-</code></pre></div></div>
+<p><code class="highlighter-rouge">{{ site.data.products[page.record].image }}</code></p>
 
 <p>To my eye this “<em>looks</em>” wrong. It looks like the “<em>record</em>” pulled from the front matter will be stuck next to the word “<em>products</em>”. But that isn’t what happens. Writing it that way works like a charm. That little DOT caused me an endless amount of grief.</p>
 
@@ -247,20 +244,20 @@ Reading time ~4 minutes
       <a href="http://localhost:4000/do-not-lock-clients-out/" class="read-more-btn">Read More</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="http://localhost:4000/do-not-lock-clients-out/" title="Do Not Lock Clients Out!">Do Not Lock Clients Out!</a></h3>
-      <p>Never lock clients out from their own services, it is bad for everyone! <a href="http://localhost:4000/do-not-lock-clients-out/">Continue reading</a></p>
+      <h3><a href="http://localhost:4000/shopify-render-blocking-resources/" title="Fix Render Blocking Resources in Shopify">Fix Render Blocking Resources in Shopify</a></h3>
+      <p>Render Blocking Resources can slow down a Shopify site, learn how to find what resources is slowing the site down and how to keep it from doing that. <a href="http://localhost:4000/shopify-render-blocking-resources/">Continue reading</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">
     
       <div class="list-item">
-        <h4><a href="http://localhost:4000/location-a-flasher-story/" title="Location, A Flasher Story">Location, A Flasher Story</a></h4>
-        <span>Published on February 04, 2018</span>
+        <h4><a href="http://localhost:4000/do-not-lock-clients-out/" title="Do Not Lock Clients Out!">Do Not Lock Clients Out!</a></h4>
+        <span>Published on November 21, 2018</span>
       </div><!-- /.list-item -->
     
       <div class="list-item">
-        <h4><a href="http://localhost:4000/there-is-too-much-choice/" title="Too Much Choice?!">Too Much Choice?!</a></h4>
-        <span>Published on December 23, 2017</span>
+        <h4><a href="http://localhost:4000/location-a-flasher-story/" title="Location, A Flasher Story">Location, A Flasher Story</a></h4>
+        <span>Published on February 04, 2018</span>
       </div><!-- /.list-item -->
     
   </div><!-- /.read-more-list -->

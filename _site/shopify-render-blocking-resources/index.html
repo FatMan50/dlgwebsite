@@ -1,0 +1,277 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Fix Render Blocking Resources in Shopify &#8211; Dana Lee Gibson</title>
+<meta name="description" content="Render Blocking Resources can slow down a Shopify site, learn how to find what resources is slowing the site down and how to keep it from doing that.">
+<meta name="keywords" content="technology, e-commerce">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/">
+<meta name="twitter:title" content="Fix Render Blocking Resources in Shopify">
+<meta name="twitter:description" content="Render Blocking Resources can slow down a Shopify site, learn how to find what resources is slowing the site down and how to keep it from doing that.">
+<meta name="twitter:creator" content="@DanaLeeGibson">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/shopify-render-blocking-resources/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Dana Lee Gibson Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+<!-- Open Graph -->
+<meta property="fb:app_id" content="1546131965405688"
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fix Render Blocking Resources in Shopify">
+<meta property="og:description" content="Render Blocking Resources can slow down a Shopify site, learn how to find what resources is slowing the site down and how to keep it from doing that.">
+<meta property="og:url" content="http://localhost:4000/shopify-render-blocking-resources/">
+<meta property="og:site_name" content="Dana Lee Gibson">
+<meta property="og:image:width" content="637">
+<meta property="og:image:height" content="403">
+
+  <meta content="http://localhost:4000/images/Fix-render-blocking-resources-in-shopify.jpg" property="og:image">
+
+
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/powerbeard.jpg" alt="Dana Lee Gibson photo" class="author-photo">
+					<h4>Dana Lee Gibson</h4>
+					<p>I made my life about creating and designing, it might be a logo, a magazine, a website, setting up a server, or turning an old school bus into a home on wheels.</p>
+				</li>
+				<li><a href="http://localhost:4000/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				<li>
+					<a href="mailto:info@danaleegibson.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/DanaLeeGibson"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>
+				
+				<li>
+					<a href="https://plus.google.com/+DanaLeeGibson"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
+				</li>
+				<li>
+					<a href="https://linkedin.com/in/dana-lee-gibson"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/posts/">All Posts</a></li>
+				<li><a href="http://localhost:4000/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/contact-me/" >Contact Me</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/it-services/" >I.T. Services</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/portfolio/" >Portfolio</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/references/" >References</a></li>
+	  
+	    
+	    <li><a href="http://dudeism.com" target="_blank">What is Dudeism?</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/shopify-render-blocking-resources/" rel="bookmark" title="Fix Render Blocking Resources in Shopify">Fix Render Blocking Resources in Shopify</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2019-07-08T00:00:00-04:00">July 08, 2019</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+Reading time ~2 minutes
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p><img src="http://localhost:4000/images/Fix-render-blocking-resources-in-shopify.jpg" alt="Using Jekyll to drive an e-commerce website" /></p>
+
+<p>Render blocking resources have been an issue with Shopify websites. When testing a site’s speed using the Chrome feature called Lighthouse you can pinpoint what resources are causing you issues.<!--more--></p>
+
+<div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container"><iframe src="https://www.youtube.com/embed//uNperuWO8s4" frameborder="0" allowfullscreen=""></iframe></div>
+</div>
+
+<p>Go to Chrome and the website you want to test. Then click View in the top left of the screen and in the drop-down choose Developer and then Developer Tools. The window that opens gives you lots of tools to use.</p>
+
+<p>Choose the Audit tab from Developer Tools. There you can run an audit of the page in either the mobile or desktop environment. After the test has run you will get some very helpful information.</p>
+
+<p>Specifically we are looking at the Performance section. Look for the Render Blocking Resources row and click it. It will open a drop-down that will show you specifically what resources are slowing down the page. It will also give you the amount of time that is being used to run these resources.</p>
+
+<p>After you have identified a specific resource that is slowing the page, go to the admin side of your Shopify. Then go to the Online Store and click on Themes. There you want to click the Action button on the theme you wish to work on. Always test your changes on an off-line theme before making changes to the active theme.</p>
+
+<p>Under Actions choose Edit Code. On the left is a column showing the different parts of the theme, Layout, Templates, Sections, Snippets, etc. On the top is the Layout, in there click on the theme.liquid file.</p>
+
+<h2 id="disable-render-blocking-resources">Disable Render Blocking Resources</h2>
+
+<p>Look for the resource, JavaScript file, CSS file, or include, that the Lighthouse speed test indicated as slowing the page down. In many cases the resource isn’t needed on the specific page you are testing, like the home page for example.</p>
+
+<p>If you are using a specific LightBox function, for example, but it is only being used on the Product pages, you do not need to load those resources on every page. What you would do is create a “If” statement around the resource, so it will only load in the pages that need it.</p>
+
+<p>All you need to do is add this line of code just before the resource:</p>
+
+<p><code class="highlighter-rouge">{% if template contains 'product' %}</code></p>
+
+<p>And then just after the resource add the end statement:</p>
+
+<p><code class="highlighter-rouge"> {% endif %} </code></p>
+
+<p>This example will load the resource only on the Product pages.</p>
+
+<h2 id="test--tune">Test &amp; Tune</h2>
+
+<p>To make sure the resource you are controlling does not mess up your site, you need to test it. Once you are sure you are controlling the resource correctly you can make the changes to the active theme.</p>
+
+<p>If you need to have the resource applied to more than one page you would add this before the resource:</p>
+
+<p><code class="highlighter-rouge"> {% if template == 'product' or template == 'cart' %}  </code></p>
+
+<p>In this example the resource would be loaded on every Product page as well as the Cart. And of course it would need to be followed up by the “endif” statement.</p>
+
+<p>Shopify Themes and APP’s add lots of resources in the Theme.liquid file. Not all are required by every page of your site. This is done for simplicity sake. APP developers and theme developers are trying to make things as simple as possible for themselves. Which is fine.</p>
+
+<p>But as owners and managers you need to get the best performance out of your Shopify site as possible. By using the “if” statement you can limit what gets loaded on each page, and by doing so, reduce the render blocking resources that are slowing your Shopify site down.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#technology" title="Pages tagged technology" class="tag"><span class="term">technology</span></a><a href="http://localhost:4000/tags/#e-commerce" title="Pages tagged e-commerce" class="tag"><span class="term">e-commerce</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/shopify-render-blocking-resources/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/shopify-render-blocking-resources/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/shopify-render-blocking-resources/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/jekyll-swarmcell-website/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/jekyll-swarmcell-website/" title="E-commerce Jekyll Driven Website">E-commerce Jekyll Driven Website</a></h3>
+      <p>Creating a Jekyll driven e-commerce website. Utilizing the power of a statically generated website for the platform for an e-commerce website. <a href="http://localhost:4000/jekyll-swarmcell-website/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/do-not-lock-clients-out/" title="Do Not Lock Clients Out!">Do Not Lock Clients Out!</a></h4>
+        <span>Published on November 21, 2018</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/location-a-flasher-story/" title="Location, A Flasher Story">Location, A Flasher Story</a></h4>
+        <span>Published on February 04, 2018</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2019 Dana Lee Gibson. Powered by: <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33973666-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+	        
+
+</body>
+</html>

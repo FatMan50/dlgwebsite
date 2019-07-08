@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-03T21:21:12-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title type="html">E-commerce Jekyll Driven Website</title><link href="http://localhost:4000/jekyll-swarmcell-website/" rel="alternate" type="text/html" title="E-commerce Jekyll Driven Website" /><published>2019-07-03T00:00:00-04:00</published><updated>2019-07-03T00:00:00-04:00</updated><id>http://localhost:4000/jekyll-swarmcell-website</id><content type="html" xml:base="http://localhost:4000/jekyll-swarmcell-website/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-and-e-commerce.jpg&quot; alt=&quot;Using Jekyll to drive an e-commerce website&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-08T17:15:52-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dana Lee Gibson</title><subtitle>This is a blog about Technology and Design but also about life.</subtitle><entry><title type="html">Fix Render Blocking Resources in Shopify</title><link href="http://localhost:4000/shopify-render-blocking-resources/" rel="alternate" type="text/html" title="Fix Render Blocking Resources in Shopify" /><published>2019-07-08T00:00:00-04:00</published><updated>2019-07-08T00:00:00-04:00</updated><id>http://localhost:4000/shopify-render-blocking-resources</id><content type="html" xml:base="http://localhost:4000/shopify-render-blocking-resources/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Fix-render-blocking-resources-in-shopify.jpg&quot; alt=&quot;Using Jekyll to drive an e-commerce website&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Render blocking resources have been an issue with Shopify websites. When testing a site’s speed using the Chrome feature called Lighthouse you can pinpoint what resources are causing you issues.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed//uNperuWO8s4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Go to Chrome and the website you want to test. Then click View in the top left of the screen and in the drop-down choose Developer and then Developer Tools. The window that opens gives you lots of tools to use.&lt;/p&gt;
+
+&lt;p&gt;Choose the Audit tab from Developer Tools. There you can run an audit of the page in either the mobile or desktop environment. After the test has run you will get some very helpful information.&lt;/p&gt;
+
+&lt;p&gt;Specifically we are looking at the Performance section. Look for the Render Blocking Resources row and click it. It will open a drop-down that will show you specifically what resources are slowing down the page. It will also give you the amount of time that is being used to run these resources.&lt;/p&gt;
+
+&lt;p&gt;After you have identified a specific resource that is slowing the page, go to the admin side of your Shopify. Then go to the Online Store and click on Themes. There you want to click the Action button on the theme you wish to work on. Always test your changes on an off-line theme before making changes to the active theme.&lt;/p&gt;
+
+&lt;p&gt;Under Actions choose Edit Code. On the left is a column showing the different parts of the theme, Layout, Templates, Sections, Snippets, etc. On the top is the Layout, in there click on the theme.liquid file.&lt;/p&gt;
+
+&lt;h2 id=&quot;disable-render-blocking-resources&quot;&gt;Disable Render Blocking Resources&lt;/h2&gt;
+
+&lt;p&gt;Look for the resource, JavaScript file, CSS file, or include, that the Lighthouse speed test indicated as slowing the page down. In many cases the resource isn’t needed on the specific page you are testing, like the home page for example.&lt;/p&gt;
+
+&lt;p&gt;If you are using a specific LightBox function, for example, but it is only being used on the Product pages, you do not need to load those resources on every page. What you would do is create a “If” statement around the resource, so it will only load in the pages that need it.&lt;/p&gt;
+
+&lt;p&gt;All you need to do is add this line of code just before the resource:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;{% if template contains 'product' %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And then just after the resource add the end statement:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; {% endif %} &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This example will load the resource only on the Product pages.&lt;/p&gt;
+
+&lt;h2 id=&quot;test--tune&quot;&gt;Test &amp;amp; Tune&lt;/h2&gt;
+
+&lt;p&gt;To make sure the resource you are controlling does not mess up your site, you need to test it. Once you are sure you are controlling the resource correctly you can make the changes to the active theme.&lt;/p&gt;
+
+&lt;p&gt;If you need to have the resource applied to more than one page you would add this before the resource:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; {% if template == 'product' or template == 'cart' %}  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In this example the resource would be loaded on every Product page as well as the Cart. And of course it would need to be followed up by the “endif” statement.&lt;/p&gt;
+
+&lt;p&gt;Shopify Themes and APP’s add lots of resources in the Theme.liquid file. Not all are required by every page of your site. This is done for simplicity sake. APP developers and theme developers are trying to make things as simple as possible for themselves. Which is fine.&lt;/p&gt;
+
+&lt;p&gt;But as owners and managers you need to get the best performance out of your Shopify site as possible. By using the “if” statement you can limit what gets loaded on each page, and by doing so, reduce the render blocking resources that are slowing your Shopify site down.&lt;/p&gt;</content><author><name></name></author><category term="technology" /><category term="e-commerce" /><summary type="html">Render blocking resources have been an issue with Shopify websites. When testing a site’s speed using the Chrome feature called Lighthouse you can pinpoint what resources are causing you issues.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Fix-render-blocking-resources-in-shopify.jpg" /></entry><entry><title type="html">E-commerce Jekyll Driven Website</title><link href="http://localhost:4000/jekyll-swarmcell-website/" rel="alternate" type="text/html" title="E-commerce Jekyll Driven Website" /><published>2019-07-03T00:00:00-04:00</published><updated>2019-07-03T00:00:00-04:00</updated><id>http://localhost:4000/jekyll-swarmcell-website</id><content type="html" xml:base="http://localhost:4000/jekyll-swarmcell-website/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-and-e-commerce.jpg&quot; alt=&quot;Using Jekyll to drive an e-commerce website&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Recently I &lt;a href=&quot;https://swarmcell.com&quot; title=&quot;All Natural Beeswax Lip Balm&quot;&gt;built an e-commerce website&lt;/a&gt; using the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;static site builder Jekyll&lt;/a&gt;. This is a quick over-view of what I did. This being my first attempt at a &lt;a href=&quot;https://youtu.be/gJ6C1xczFzw&quot; title=&quot;my video tutorial&quot;&gt;Jekyll driven e-commerce website&lt;/a&gt; there were some issues to overcome. I hope this post, and video, will be helpful to anyone doing this for the first time. I’m sure I made mistakes, and if I was to build a second site, there are things I would do differently.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -43,8 +89,7 @@
 
 &lt;p&gt;I found out that you can pass a front matter element into the code by way of the square brackets &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[ ]&lt;/code&gt;&lt;/strong&gt;. However, where the dots go (&lt;em&gt;and don’t go&lt;/em&gt;) make all the difference. Normally each section of the “&lt;em&gt;path&lt;/em&gt;” in the code is separated by a dot. For example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site.data.products.lip-balm.price
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;{{ site.data.products.lip-balm.price }}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;This basically says to look in the &lt;strong&gt;SITE&lt;/strong&gt;, in the &lt;strong&gt;DATA&lt;/strong&gt; folder, in the &lt;strong&gt;PRODUCTS&lt;/strong&gt; file, look for the &lt;strong&gt;LIP-BALM&lt;/strong&gt; record, and display the &lt;strong&gt;PRICE&lt;/strong&gt;. Simple enough to understand. However when this is used in a layout file I needed to grab information from the front matter.&lt;/p&gt;
 
@@ -52,13 +97,11 @@
 
 &lt;p&gt;This changes the way the code is written. It is a little unintuitive. In the above example each item is separated by a &lt;strong&gt;DOT&lt;/strong&gt;. Logically I thought the &lt;strong&gt;DOTS&lt;/strong&gt; would stay and I’d just have to add a little more code. By adding in, &lt;code class=&quot;highlighter-rouge&quot;&gt;[page.record]&lt;/code&gt; I should be adding the specific record from the front matter. Something like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site.data.products.[page.record].image}}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;{{ site.data.products.[page.record].image }}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;However, that is &lt;strong&gt;WRONG&lt;/strong&gt;. I added an extra &lt;strong&gt;DOT&lt;/strong&gt;. The &lt;strong&gt;DOT&lt;/strong&gt; after “&lt;em&gt;products&lt;/em&gt;” caused this to fail. The correct way to write this is:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site.data.products[page.record].image
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;{{ site.data.products[page.record].image }}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;To my eye this “&lt;em&gt;looks&lt;/em&gt;” wrong. It looks like the “&lt;em&gt;record&lt;/em&gt;” pulled from the front matter will be stuck next to the word “&lt;em&gt;products&lt;/em&gt;”. But that isn’t what happens. Writing it that way works like a charm. That little DOT caused me an endless amount of grief.&lt;/p&gt;
 
@@ -374,54 +417,4 @@ image: 3-reasons-to-switch-from-wordpress-to-jekyll.jpg
 
 &lt;p&gt;A few times a year I plug it in and lament over how well she runs. Then, I put her back in cold-storage.&lt;/p&gt;
 
-&lt;p&gt;It seems wrong to throw away (&lt;em&gt;or recycle&lt;/em&gt;) something that works so well. Even if it is kind of useless.&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="mac" /><category term="apple" /><summary type="html">Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/too-old-to-use-it.jpg" /></entry><entry><title type="html">Data is an Echo of You</title><link href="http://localhost:4000/data-is-an-echo-of-you/" rel="alternate" type="text/html" title="Data is an Echo of You" /><published>2016-12-16T02:57:32-05:00</published><updated>2016-12-16T02:57:32-05:00</updated><id>http://localhost:4000/data-is-an-echo-of-you</id><content type="html" xml:base="http://localhost:4000/data-is-an-echo-of-you/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/data-is-an-echo-of-you.jpg&quot; alt=&quot;Data is an Echo of You&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;I was tasked with bringing an old &lt;strong&gt;Microsoft Access&lt;/strong&gt; database into the 21st century. This database had been the heart of a business for almost two decades. But for the last &lt;strong&gt;6&lt;/strong&gt; years it had sat mostly unused.&lt;/p&gt;
-
-&lt;p&gt;Moving a Windows based database over to Mac is not super simple. It is not the hardest thing in the world either. It did force me to abandon my compulsion to “fix” everything.&lt;/p&gt;
-
-&lt;p&gt;Because the data was now accessed very infrequently there was no need to bring it up to todays standards, structure wise. It was not going to be an active part of the business.&lt;/p&gt;
-
-&lt;p&gt;I used an application called &lt;a href=&quot;https://eggerapps.at/mdbviewer/&quot;&gt;MDB ACCDB Viewer&lt;/a&gt;, available through the &lt;strong&gt;Apple App Store&lt;/strong&gt; for &lt;strong&gt;$19&lt;/strong&gt;. This gave me easy access to the Access database’s tables. I then exported the tables I needed in CSV format.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/filemaker-edit-layout.jpg&quot; alt=&quot;FileMaker edit layout mode&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From there I used FileMaker to recreate the database, at least the parts I needed. Linking the tables and building the layouts and the scripts was nothing special. I did have a bit of a struggle with a printing script, but thats a story for another time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/table-relationships.jpg&quot; alt=&quot;FileMaker table relation graph&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once the &lt;a href=&quot;http://www.filemaker.com&quot;&gt;Filemaker database&lt;/a&gt; was finished I had to test it. I did all kinds of searching and filtering of the data. I had to return to the old data a few times to grab some more tables to make the new system a bit more flushed out.&lt;/p&gt;
-
-&lt;p&gt;When you filter through orders going as far back as &lt;strong&gt;1998&lt;/strong&gt; you can see people. In the beginning the orders were very detailed, every box was ticked, every data field was populated. Then there was a gradual change.&lt;/p&gt;
-
-&lt;p&gt;As I moved through the files, traveling forward in time, I could see someone else was entering orders. They were far less detailed orientated. The orders and customer information became far less descriptive.&lt;/p&gt;
-
-&lt;h2 id=&quot;data-entry-decay&quot;&gt;Data Entry Decay?&lt;/h2&gt;
-
-&lt;p&gt;Like watching a tire coming apart as a truck speeds down a highway, I could see the inevitable. The change to the next person entering data was abrupt. A new style, not as bad as the last but not as good as the first.&lt;/p&gt;
-
-&lt;p&gt;It was clear there was an attempt made to be thorough and complete. By looking at the orders and the notes sections I got the sense of someone struggling. Is it even possible to get a sense of a person’s day to day life simply by how they entered data?&lt;/p&gt;
-
-&lt;p&gt;As I went through my testing the years flew past. Sales data of good months and bad months, good seasons and bad seasons seemed compressed into waves I could almost hear, like a far off beach.&lt;/p&gt;
-
-&lt;p&gt;I began to have feelings of hostility towards the people that did a very poor job of entering data. It complicated the task of testing the database. I could not simply test the system, I had to verify poor results as either a structure problem or inaccurate data entry.&lt;/p&gt;
-
-&lt;h3 id=&quot;is-it-the-data-or-is-it-me&quot;&gt;Is it the Data, Or is it Me?&lt;/h3&gt;
-
-&lt;p&gt;At one point I was convinced my new system was fatally flawed. Then I realized I was testing a section of the data that was populated by someone who clearly didn’t like their job. It would be fair to say, whoever they were, they went out of their way to do a poor job.&lt;/p&gt;
-
-&lt;p&gt;This got me thinking about how I will be judged in the future. My previous careers left no chance of people in the future critiquing my work. Driving a truck is a “in the moment” type of a thing. You can’t look back, thirty years from now and review, in detail how 18 yards of concrete was delivered. (Spoiler - it was delivered expertly)&lt;/p&gt;
-
-&lt;p&gt;Working in the digital field I do work that could easily still be around, in some form or another 30, 50, maybe 70 years from now. It is not just people who work in the I.T. field either. Stuff on Facebook and YouTube could be here for many life times.&lt;/p&gt;
-
-&lt;p&gt;As I approached the current time-line, in my database testing, I softened by attitude towards the people who worked in the old system. I was struck by how much of a person could to be imprinted into such a cold medium as a database.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-thought-for-the-future&quot;&gt;A Thought for the Future&lt;/h3&gt;
-
-&lt;p&gt;There is no way for me to tell those people I felt their echo, a small vibration of their existence recorded in an obscure data entry system. And I wonder if anything I do today will be felt by someone decades from now.&lt;/p&gt;
-
-&lt;p&gt;I hope that if someone in the future is struggling with something I have worked on, or with, that they can feel my desire to do it correctly. It would be nice if they could tell I liked what I did, and I tried to do it with care.&lt;/p&gt;
-
-&lt;p&gt;Or maybe this was all in my head. Maybe it is just a database, a collection of numbers and letters in little boxes that can’t record anything about its user. But, I hope not.&lt;/p&gt;</content><author><name></name></author><summary type="html">How will I be remembered? How much of what I do, and how I do it, will carry an invisible description of who I am? More importantly, how did an old database get me thinking about all this stuff?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-is-an-echo-of-you.jpg" /></entry></feed>
+&lt;p&gt;It seems wrong to throw away (&lt;em&gt;or recycle&lt;/em&gt;) something that works so well. Even if it is kind of useless.&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="mac" /><category term="apple" /><summary type="html">Not many of you will recognize this, it is a 2004, Apple Power Mac G5. A Dual 1.8GHz unit with 4GB of RAM, WiFi card, two 500GB hard drives, a NVIDIA GeForce FX 5200 video card, running OS 10.5 Leopard, to be exact.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/too-old-to-use-it.jpg" /></entry></feed>

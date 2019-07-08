@@ -54,9 +54,9 @@ This being my first use of data files with Jekyll, I came across a few things th
 
 I found out that you can pass a front matter element into the code by way of the square brackets **`[ ]`**. However, where the dots go (*and don’t go*) make all the difference. Normally each section of the “*path*” in the code is separated by a dot. For example:
 
-```
-site.data.products.lip-balm.price
-```
+{% raw %}
+`{{ site.data.products.lip-balm.price }}`
+{% endraw %}
 
 This basically says to look in the **SITE**, in the **DATA** folder, in the **PRODUCTS** file, look for the **LIP-BALM** record, and display the **PRICE**. Simple enough to understand. However when this is used in a layout file I needed to grab information from the front matter.
 
@@ -64,15 +64,15 @@ Things like paths to product images are stored in the **YML** file. The layout n
 
 This changes the way the code is written. It is a little unintuitive. In the above example each item is separated by a **DOT**. Logically I thought the **DOTS** would stay and I’d just have to add a little more code. By adding in, `[page.record]` I should be adding the specific record from the front matter. Something like this:
 
-```
-site.data.products.[page.record].image}}
-```
+{% raw %}
+`{{ site.data.products.[page.record].image }}`
+{% endraw %}
 
 However, that is **WRONG**. I added an extra **DOT**. The **DOT** after “*products*” caused this to fail. The correct way to write this is:
 
-```
-site.data.products[page.record].image
-```
+{% raw %}
+`{{ site.data.products[page.record].image }}`
+{% endraw %}
 
 To my eye this “*looks*” wrong. It looks like the “*record*” pulled from the front matter will be stuck next to the word “*products*”. But that isn’t what happens. Writing it that way works like a charm. That little DOT caused me an endless amount of grief.
 
